@@ -1,0 +1,555 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+body{
+  background-color: rgb(253, 253, 253);
+}
+
+/*Cabeçalho*/
+
+header{   
+  position:fixed;
+  display: flex;
+  background-color: rgb(0, 24, 60);
+  width: 100%;
+  height: 80px;
+}
+
+
+ 
+/*logo*/
+header .logo a{
+  float: left;
+  color: white;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 70px;
+  padding: 10px;
+  margin-left: 30px;
+  text-decoration: none;
+  
+}
+
+
+
+.logo .mao{
+  width: 10%;
+  margin-left: -10px;
+  margin-bottom: -45px;
+}
+
+/*menu*/
+
+.menu{
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    width: 760px;
+    height: 100px;
+    display: flex;
+    margin-left: 10px;
+    margin-top:10px;
+}
+
+.menu ul {
+  float: right;
+  margin-left: -50px;
+  list-style: none;
+  position: absolute;
+}
+
+.menu ul li {
+  display: inline-block;
+  background-color: rgb(0, 24, 60);
+  margin: 0 30px;
+}
+
+.menu ul li a {
+  color: white;
+  line-height: 70px;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 8px 15px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+.menu ul li a:hover {
+    color: rgba(8, 248, 236, 0.534);
+}
+
+/*submenu*/
+
+.menu ul ul {
+  position: absolute;
+  top: 90px;
+  opacity: 0;
+  visibility: hidden;
+  transition: top .3s;
+}
+
+.menu ul li:hover > ul {
+  top: 70px;
+  opacity: 1;
+  visibility: visible;
+}
+
+.menu ul ul li{
+  position: relative;
+  margin: 0px;
+  width: 350px;
+  float: none;
+  display: list-item;
+  border: 3px solid rgba(0, 0, 0, 0.226);
+}
+
+.menu ul ul .ace{
+  position: relative;
+  margin: 0px;
+  width: 260px;
+  float: none;
+  display: list-item;
+  border: 3px solid rgba(0, 0, 0, 0.226);;
+}
+
+.menu ul ul .ent{
+  position: relative;
+  margin-left: 60px;
+  width: 170px;
+  float: none;
+  display: list-item;
+  border: 3px solid rgba(0, 0, 0, 0.226);;
+}
+
+.menu ul ul li a {
+  display: block;
+  font-size: 13px;
+}
+
+.menu ul ul ul li{
+  position: absolute;
+  top: -60px;
+  left: 150px;
+}
+
+/*efeito do menu1*/
+.menu ul li .menu1::after{
+  content: '';
+  height: 3px;
+  width:0;
+  background: #009688;
+  position: absolute;
+  margin-left: -70px;
+  bottom: 0;
+  transition: 0.7s;
+}
+
+.menu ul li .menu1:hover::after{ 
+  width: 13%;
+}
+
+/*efeito do menu2*/
+.menu ul li .menu2::after{
+  content: '';
+  height: 3px;
+  width:0;
+  background: #009688;
+  position: absolute;
+  margin-left: -150px;
+  bottom: 0;
+  transition: 0.7s;
+}
+
+.menu ul li .menu2:hover::after{ 
+  width: 25%;
+}
+
+/*efeito do menu3*/
+.menu ul li .menu3::after{
+  content: '';
+  height: 3px;
+  width:0;
+  background: #009688;
+  position: absolute;
+  margin-left: -160px;
+  bottom: 0;
+  transition: 0.7s;
+}
+
+.menu ul li .menu3:hover::after{ 
+  width: 27%;
+}
+
+
+/*efeito do submenu*/
+.menu ul ul li::after{
+  content: '';
+  height: 3px;
+  width:0;
+  background: #009688;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  transition: 1s;
+}
+
+.menu ul ul li:hover::after{
+    
+  width: 100%;
+}
+
+/*fim do submenu*/
+
+/*fim do menu*/
+
+/*botão de entrada*/
+
+:root {
+ 
+  --button-linear: linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  --white: #fff;
+}
+
+
+.login__submit2 {
+  height: 48px;
+  width: 150px;
+  outline: none;
+  background: var(--button-linear);
+  background-size: 200%;
+  margin-top: 20px;
+  margin-left: -60px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.login__submit2:hover {
+  background-position: right;
+}
+
+.btn_link{
+  text-decoration: none;
+}
+
+
+
+.cadastrar {
+  height: 48px;
+  width: 150px;
+  outline: none;
+  background: var(--button-linear);
+  background-size: 200%;
+  margin-top: 50px;
+  margin-left: 20px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  position: absolute;
+}
+
+.cadastrar:hover {
+  background-position: right;
+}
+
+.btn_link{
+  text-decoration: none;
+}
+
+/*fim do botão de entrada*/
+
+/* fim do Cabeçalho*/
+
+/*Descrição Volume zero*/
+
+.volume{
+  background-color: rgb(0, 24, 60);
+  width: auto;
+  height: 552px;
+}
+
+
+/*Aviões do conteudo*/
+
+#planer1{
+  width:55px;
+  margin-left: 60px;
+  margin-bottom: -200px;
+}
+
+#planer2{
+  width: 100px; 
+  margin-left: 20px;   
+  margin-bottom: -285px;
+
+}
+
+#planer3{
+  width: 110px;
+  margin-bottom: -360px;
+  margin-left: -230px;
+}
+
+/* Fim dos Aviões do conteudo*/
+
+/*Conteudo volume*/
+
+.content{
+  margin-top: 15%;
+  z-index: -1;
+  text-align: center;
+  width:50%;
+  margin-left: 260px;
+}
+.content .header{
+  font-size: 35px;
+  font-weight: 600;
+  color: #239086;
+}
+.content p{
+  font-size: 20px;
+  font-weight: 500;
+  color: white;
+}
+
+/*Fim do Conteudo volume*/
+
+/*imagem de fundo*/
+#fundo {
+  margin-left: 888px;
+  height: 380px;
+  margin-top: -250px;
+}
+
+/*Ondas*/
+
+.waves {
+  width: 100%;
+  height:25vh;
+  min-height:100px;
+  max-height:150px;
+  left: 0;
+  margin-top: -9.6%;
+}
+
+/* Animação Waves */
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(.55,.5,.45,.5)  infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 7s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -3s;
+  animation-duration: 10s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -4s;
+  animation-duration: 13s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -5s;
+  animation-duration: 20s;
+}
+@keyframes move-forever {
+  0% {
+   transform: translate3d(-90px,0,0);
+  }
+  100% { 
+    transform: translate3d(85px,0,0);
+  }
+}
+
+/* fim das Ondas*/
+
+/*Fim Descrição Volume zero*/
+
+/* conteudo da rede social VZ */
+
+.vz{
+  background-color: rgb(255, 255, 255);
+  width: auto;
+  height: 500px;
+}
+
+/* logo VZ */
+
+#rede{
+  font-size: 260px;
+  color: rgb(0, 24, 60);
+  -webkit-text-stroke-width: 19px;
+  margin-left: 150px;
+  margin-top: 50px;
+}
+
+/* Descrição da vz*/
+
+.content2{
+  margin-top: -24%;
+  z-index: -1;
+  text-align: center;
+  width: 50%;
+  margin-left: 560px;
+}
+.content2 .header2{
+  font-size: 35px;
+  font-weight: 600;
+  color: #239086;
+}
+.content2 p{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(0, 24, 60);
+}
+
+
+
+/* fim Descrição da vz*/
+
+/* Botão vz*/
+
+:root {
+ 
+  --button-linear: linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  --white: #fff;
+}
+
+
+.login__submit {
+  height: 48px;
+  width: 150px;
+  outline: none;
+  background: var(--button-linear);
+  background-size: 200%;
+  margin-top: 50px;
+  margin-left: 710px;
+  color: var(--white);
+  font-size: 16px;
+  font-weight: bold;
+  border: unset;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: 0.5s ease;
+}
+
+.login__submit:hover {
+  background-position: right;
+}
+
+
+/* Fim da da rede social VZ */
+
+/* Footer */
+
+.sobre_nos{
+  color: #bbbbbb;
+  font-size: 13px;
+}
+
+.container{
+	max-width: 1170px;
+	margin:auto;
+  height: 180px;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+.footer{
+	background-color: rgb(0, 24, 60);
+  padding: 15px 0;
+  height: 164.9px;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+
+.footer-col .email{
+  	text-transform: lowercase;
+}
+
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+}
+
+
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+  margin-top: -10px;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+#vzsl{
+  margin-bottom: -2px;
+}
+
+.copy{
+  color: white;
+  margin-top: 10%;
+  margin-left: -650px;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+  }
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+  }
+}
+
+/* Fim do Footer */
+
