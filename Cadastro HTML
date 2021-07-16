@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="registro.css">
+  <script defer src="./registro.js"></script>
+  <script defer src="./registro1.js"></script>
+  <title>Cadastro</title>
+
+</head>
+<body>
+  <main class="register">
+
+    <div class="register_container">
+
+      <h1 class="register_ittle">Cadastro</h1>
+
+      <form class="register_form">
+
+      <input class="register_input" type="text" placeholder="Nome de usuário">
+      <span class="register_input-border"></span>
+
+      <input class="register_input" type="email" placeholder="E-mail">
+      <span class="register_input-border"></span>
+
+      <input class="register_input" type="password" placeholder="Senha">
+      <span class="register_input-border"></span>
+
+      <a class="terms_of_use" href="#" id="myBtn">Termos de Uso</a>
+
+      <a class="terms_of_use" href="#" id="myBtn1">Política de Privacidade</a>
+
+      <div class="register_terms">
+        <input type="checkbox">
+        <label >Li e aceito os termos</label>
+      </div>
+
+      <button class="register_submit"><a href="login.html" style="text-decoration: none;color:white">Cadastrar</a></button>
+
+      <a class="login_redirect" href="login.html">Ja possuí uma conta? Entre aque!</a>
+
+
+      <!-- Trigger/Open The Modal -->
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="modal-header">
+    <span class="close">&times;</span>
+    <h2>TERMOS DE USO VZ</h2>
+  </div>
+  <div class="modal-body">
+    <p>Ao utilizar os Serviços, você concorda em estar sujeito a estes Termos.</p>
+
+    <p>1. QUEM PODE UTILIZAR OS SERVIÇOS</p>
+    
+    <p>Você pode utilizar os Serviços somente se concordar em celebrar um contrato vinculante com a VZ e não for uma pessoa impedida de receber serviços sob as leis da jurisdição aplicável. Em qualquer hipótese, você deve ter no mínimo 13 anos de idade, para utilizar os Serviços. Se estiver aceitando estes Termos e utilizando os Serviços em nome de uma empresa, organização, governo ou outra entidade legal, você declara e garante que está autorizado a realizar tal ação e que tem poderes para vincular referida entidade a estes Termos, hipótese em que as palavras "você" e "seu" conforme utilizadas nestes Termos farão referência a tal entidade.</p>
+
+    <p>2. PRIVACIDADE</p>
+    <p>Nossa Política de Privacidade (https://www.vz.com/pt/privacidade) descreve como manuseamos as informações fornecidas ao utilizar nossos Serviços. Você entende que, ao utilizar os Serviços, concorda com a coleta e uso (conforme estabelecido na Política de Privacidade) dessas informações</p>
+
+    <p>3. Conteúdo nos Serviços</p>
+    <p>Você é responsável por seu uso dos Serviços e por qualquer Conteúdo fornecido, incluindo a conformidade com leis, regras e regulamentos aplicáveis. Você só deve fornecer Conteúdo com o qual esteja confortável em compartilhar com outras pessoas.</p>
+    <p>Qualquer uso ou confiança em qualquer Conteúdo ou materiais publicados pelos Serviços ou obtidos por você pelos Serviços é de sua inteira responsabilidade. Não aprovamos, apoiamos, declaramos nem garantimos a integridade, veracidade, exatidão ou confiabilidade de qualquer Conteúdo ou comunicado publicado pelos Serviços, tampouco endossamos opiniões expressas por eles. Você compreende que, ao utilizar os Serviços, pode estar exposto a Conteúdo ofensivo, prejudicial, impreciso, inadequado ou, em alguns casos, a publicações identificadas de modo indevido ou fraudulentas. Todo o Conteúdo é de responsabilidade exclusiva da pessoa que o criar. Não podemos monitorar ou controlar o Conteúdo postado pelos Serviços, e não podemos nos responsabilizar por tal Conteúdo.</p>
+    <p>Reservamo-nos ao direito de remover o Conteúdo que viole o Acordo do Usuário, incluindo, por exemplo, violações de direitos autorais ou de marcas comerciais ou outra apropriação indébita de propriedade intelectual, falsidade ideológica, conduta ilegal ou assédio. </p>
+    <p>Se você acha que seu Conteúdo foi copiado de maneira que constitui violação de direitos autorais, informe a situação acessando nosso formulário de Direitos Autorais (https://ajuda.vz.com/forms).</p>
+    <p>Você manterá seus direitos sobre qualquer Conteúdo que enviar, publicar ou exibir nos Serviços ou por meio deles. O que for seu será seu; você é o proprietário do seu Conteúdo (e seus áudios, fotos e vídeos incorporados são considerados parte do Conteúdo).</p>
+    <p>Ao enviar, publicar ou exibir Conteúdo nos Serviços ou por meio deles, você nos outorga uma licença mundial gratuita, não exclusiva (com direito a sublicenciar) para utilizar, copiar, reproduzir, processar, adaptar, modificar, publicar, transmitir, exibir e distribuir esse Conteúdo em qualquer e todos os tipos de mídia ou métodos de distribuição já disponíveis ou que venham a ser desenvolvidos (para maior clareza, esses direitos incluem, por exemplo, curadoria, transformação e tradução). Esta licença nos autoriza a tornar seu Conteúdo disponível para o restante do mundo e permite que outros usuários façam o mesmo. Você concorda que esta licença outorga a VZ o direito de fornecer, promover e melhorar os Serviços, além de tornar o Conteúdo enviado para ou por meio dos Serviços disponível a outras empresas, organizações ou pessoas que são parceiras da VZ para fins de distribuição, transmissão, divulgação ou publicação dele em outros tipos de mídia e serviços, sujeitando-se aos nossos termos e condições de utilização de Conteúdo. Tais usos adicionais por parte do VZ ou de outras empresas, organizações ou indivíduos parceiros da VZ ocorre sem que lhe seja devida qualquer remuneração pelo Conteúdo que você enviar, publicar, transmitir ou, de outra maneira, disponibilizar por meio dos Serviços uma vez que o uso dos Serviços por você é acordado como compensação suficiente pelo Conteúdo e pela concessão de direitos aqui contidos.</p>
+    <p>A VZ tem um conjunto de regras em constante evolução relacionadas à forma como os parceiros do ecossistema podem interagir com o seu Conteúdo nos Serviços da VZ. Tais regras existem para possibilitar a existência de um ecossistema aberto, levando em consideração os seus direitos. Você entende que podemos modificar ou adaptar seu Conteúdo, uma vez que ele tenha sido distribuído, publicado ou transmitido pela VZ ou nossos parceiros e/ou fazer alterações em seu Conteúdo para adaptá-lo a diferentes tipos de mídia.</p>
+    <p>Você declara e garante que possui ou que obteve todos os direitos, licenças, consentimentos, permissões, poderes e/ou autorizações necessários para outorgar os direitos aqui citados para qualquer Conteúdo enviado, postado ou exibido por você nos Serviços ou por meio deles. Você concorda que o Conteúdo não conterá materiais protegidos por direitos autorais ou outros direitos exclusivos a menos que você tenha a permissão necessária ou seja de outra forma legalmente autorizado a postar o material e a conceder a VZ a licença descrita acima.</p>
+
+    <p> 4. UTILIZAÇÃO DOS SERVIÇOS</p>
+    <p>Revise as Regras da VZ e políticas, que fazem parte do Acordo do Usuário e descrevem o que é proibido nos Serviços. Você pode utilizar os Serviços somente em conformidade com estes Termos e todas as leis, regras e regulamentos aplicáveis.</p>
+    <p>Nossos Serviços evoluem constantemente. Sendo assim, os Serviços podem ser alterados de tempos em tempos, a nosso exclusivo critério. Podemos interromper (permanente ou temporariamente) o fornecimento dos Serviços ou quaisquer recursos nos Serviços para você ou usuários em geral. Também podemos manter o direito de criar limites de uso e armazenamento, a nosso exclusivo critério e a qualquer momento. Nós também podemos remover ou recusar a distribuição de qualquer Conteúdo nos Serviços, limitar a distribuição ou visibilidade de qualquer Conteúdo no serviço, suspender ou encerrar contas de usuários e recuperar nomes de usuários sem responsabilidade perante você.</p>
+    <p>Em consideração ao VZ por conceder a você acesso e uso dos Serviços, você concorda que o VZ e seus provedores de terceiros e parceiros podem colocar anúncios nos Serviços ou em conexão com a exibição do Conteúdo ou de informações dos Serviços, enviados por você ou por outras pessoas. Você também concorda em não fazer uso indevido de nossos Serviços, por exemplo, interferindo ou acessando-os por meio de um método que não seja a interface e as instruções fornecidas pela VZ. Você não pode realizar nenhuma das seguintes ações ao acessar ou utilizar os Serviços: (i) acessar, adulterar ou utilizar áreas não públicas dos Serviços, os sistemas de computadores da VZ ou os sistemas de entrega técnica dos fornecedores da VZ; (ii) sondar, examinar ou testar as vulnerabilidades de qualquer sistema ou rede, ou violar ou neutralizar qualquer medida de segurança ou autenticação; (iii) acessar ou pesquisar, ou tentar acessar ou pesquisar os Serviços por quaisquer meios (automatizados ou de qualquer outra maneira) de outra forma que não por meio das interfaces publicadas e atualizadas disponibilizadas pela VZ (e sujeito aos respectivos termos e condições), exceto quando você tenha sido especificamente autorizado a realizar esses atos por meio de um acordo separado com a VZ; (iv) forjar o cabeçalho de qualquer pacote TCP/IP ou qualquer parte da informação constante do cabeçalho de qualquer e-mail ou publicação, assim como utilizar os Serviços de qualquer forma para enviar informação identificadora de origem alterada, enganosa ou falsa; ou (v) interferir ou prejudicar, (ou tentar assim o fazer), o acesso de qualquer usuário, prestador de serviços de hosting (armazenagem principal ou em servidor) ou de rede, incluindo, sem limitação, por meio de atos como o envio de vírus, overloading (sobrecarga), flooding, envio de spam (comunicações não solicitadas) e-mail-bombing direcionados aos Serviços, ou por meio do uso de scripts para a criação de Conteúdo de maneira que interfira com os Serviços ou crie uma carga excessiva neles. Também nos reservamos o direito de acessar, ler, preservar e divulgar quaisquer informações que acreditarmos ser razoavelmente necessárias para (i) satisfazer solicitação governamental de qualquer lei, regulamento ou processo jurídico aplicável, (ii) cumprir os Termos, incluindo a investigação de possíveis violações deste Acordo, (iii) detectar, prevenir ou, de outra forma lidar com fraude, segurança ou problemas técnicos, (iv) responder solicitações de suporte do usuário, ou (v) proteger os direitos, propriedade ou segurança da VZ, de seus usuários e do público. A VZ não divulga informações pessoais a terceiros, exceto de acordo com nossa Política de Privacidade.</p>
+    <p>SUA CONTA</p>
+    <p>Você pode precisar criar uma conta para utilizar alguns de nossos Serviços. Você é responsável por proteger sua conta, portanto, use uma senha forte e limite seu uso para esta conta. Nós não podemos ser e não seremos responsáveis por qualquer perda ou dano resultante do seu não cumprimento com o descrito acima.</p>
+    <p>Você pode controlar a maioria das comunicações a partir dos Serviços. Talvez a VZ precise enviar a você certas comunicações, como anúncios de serviços e mensagens administrativas. Essas comunicações são consideradas parte dos Serviços e da sua conta, e você não conseguirá cancelar o recebimento delas. Se você adicionou seu número de telefone em sua conta e posteriormente mudar ou desativar esse número de telefone, será necessário atualizar suas informações da conta para ajudar a evitar que a VZ entre em contato com qualquer pessoa que compre seu número antigo.</p>
+    <p>SUA LICENÇA PARA UTILIZAR OS SERVIÇOS</p>
+    <p>A VZ oferece a você uma licença pessoal, gratuita, não atribuível e não exclusiva, para utilizar o software fornecido a você como parte dos Serviços. Essa licença possui a finalidade exclusiva de permitir que você utilize e aproveite o benefício dos Serviços, conforme descrito pela VZ, na maneira permitida por estes Termos.</p>
+    <p>Nada nos Termos outorga a você o direito de utilizar o nome da VZ ou quaisquer marcas registradas, logotipos, nomes de domínio, outras características distintivas de sua marca, e outros direitos de propriedade. Todos os direitos, títulos e interesses sobre e relacionados aos Serviços (exceto aqueles relacionados ao Conteúdo fornecido pelos usuários) são e continuarão sendo propriedade exclusiva do VZ e de seus licenciadores. Quaisquer feedbacks, comentários ou sugestões fornecidos com relação a VZ ou os Serviços são totalmente voluntários e poderão ser utilizados como feedback, comentários ou sugestões de acordo com nossa conveniência e sem que haja qualquer obrigação perante você.</p>
+    <p>CESSAÇÃO DESTES TERMOS</p>
+    <p>Você poderá cessar seu acordo legal com a VZ a qualquer momento desativando suas contas e descontinuando o uso dos Serviços. </p>
+    <p>Poderemos suspender ou encerrar sua conta ou parar de fornecer a você todos ou qualquer parte dos Serviços a qualquer momento e por qualquer motivo, inclusive – sem limitação – se tivermos motivo para acreditar que: (i) você violou estes Termos, as Regras e Políticas da VZ; (ii) você representa um risco ou possível risco jurídico para nós; (iii) sua conta deva ser removida devido a conduta ilegal; (iv) sua conta deva ser removida devido a inatividade prolongada; ou (v) o fornecimento dos nossos Serviços a você não é mais viável comercialmente. Nós realizaremos esforços razoáveis para notificá-lo por e-mail pelo endereço associado à sua conta ou na próxima ocasião em que você tentar acessar sua conta, dependendo das circunstâncias. Em todas as hipóteses acima, terminará a vigência dos Termos, inclusive, sem limitação, sua licença de uso dos Serviços, com exceção das seguintes cláusulas, que permanecerão em vigor: II, III, V e VI. Para evitar dúvidas, estes Termos sobrevivem à desativação ou encerramento da sua conta.</p>
+
+    <p> 5. ISENÇÕES E LIMITAÇÕES DE RESPONSABILIDADE</p>
+    <p>Os Serviços estão disponíveis "COMO ESTÃO"</p>
+    <p>Você entende e concorda que os Serviços são fornecidos a você "COMO ESTÃO" e "COMO DISPONÍVEIS". As "Entidades da VZ " se referem a VZ, suas matrizes, afiliadas, empresas relacionadas, executivos, diretores, funcionários, agentes, representantes, parceiros e licenciadores. Sem limitar o acima exposto, na extensão máxima permitida pela lei aplicável, AS ENTIDADES DA VZ REJEITAM TODAS AS GARANTIAS E CONDIÇÕES, EXPRESSAS OU IMPLÍCITAS, DE COMERCIABILIDADE, ADEQUAÇÃO A UMA FINALIDADE ESPECÍFICA OU NÃO VIOLAÇÃO. As Entidades da VZ não dão garantia ou representação e se eximem de toda e qualquer responsabilidade por: (i) integridade, precisão, disponibilidade, pontualidade, segurança ou confiabilidade dos Serviços ou de qualquer Conteúdo; (ii) qualquer dano ao sistema do seu computador, perda de dados ou outro dano resultante do seu acesso ou uso dos Serviços ou de qualquer Conteúdo; (iii) a exclusão ou a falha em armazenar ou transmitir qualquer Conteúdo e outras comunicações mantidas pelos Serviços; e (iv) se os Serviços atenderão aos seus requisitos ou estarão disponíveis de forma ininterrupta, segura ou sem erros. Nenhum conselho ou informação, oral ou escrita, obtida das Entidades da VZ ou através dos Serviços, criará qualquer garantia ou representação não expressamente feita aqui.</p>
+    <p>LIMITAÇÃO DE RESPONSABILIDADE</p>
+    <p>VOCÊ CONCORDA QUE ATÉ O MÁXIMO PERMITIDO PELA LEI APLICÁVEL, AS ENTIDADES Da VZ NÃO SERÃO RESPONSÁVEIS POR QUAISQUER DANOS INDIRETOS, INCIDENTAIS, ESPECIAIS, CONSEQUENCIAIS OU PUNITIVOS, OU QUALQUER PERDA DE LUCROS OU RECEITAS, SEJA OCORRIDA DIRETAMENTE OU INDIRETAMENTE, OU QUALQUER PERDA DE DADOS, USO, BENEVOLÊNCIA OU OUTRAS PERDAS INTANGÍVEIS, RESULTANTES DE (i) SEU ACESSO AO OU USO DOS OU INABILIDADE DE ACESSAR OU USAR OS SERVIÇOS; (ii) QUALQUER CONDUTA OU CONTEÚDO DE TERCEIROS NOS SERVIÇOS, INCLUINDO SEM LIMITAÇÃO, QUALQUER CONDUTA DIFAMATÓRIA, OFENSIVA OU ILEGAL DE OUTROS USUÁRIOS OU TERCEIROS; (iii) QUALQUER CONTEÚDO OBTIDO PELOS SERVIÇOS; OU (iv) ACESSO, USO OU ALTERAÇÃO NÃO AUTORIZADOS DE SUAS TRANSMISSÕES OU CONTEÚDO. EM NENHUM CASO A RESPONSABILIDADE AGREGADA DAS ENTIDADES DA VZ EXCEDERÁ O VALOR DE CEM REAIS (R$ 100,00) OU O VALOR PAGO A VZ, SE FOR O CASO, NOS ÚLTIMOS SEIS MESES PELOS SERVIÇOS DANDO ORIGEM À REIVINDICAÇÃO. AS LIMITAÇÕES DESTA SUBSEÇÃO SE APLICARÃO A QUALQUER HIPÓTESE DE RESPONSABILIDADE, SEJA BASEADA EM GARANTIA, CONTRATO, ESTATUTO, DANO (INCLUINDO NEGLIGÊNCIA) OU DE OUTRO MODO, E INDEPENDENTEMENTE DE AS ENTIDADES DA VZ TEREM SIDO INFORMADAS DA POSSIBILIDADE DE QUALQUER DANO, E MESMO SE UM RECURSO ESTABELECIDO NESTE TERMO TENHA FALHADO EM SEU OBJETIVO ESSENCIAL.</p>
+
+    <p>6. GERAL</p>
+    <p>Poderemos revisar estes Termos de tempos em tempos. As modificações não serão retroativas, e a versão mais atualizada dos Termos, regerá nossa relação com você. Exceto no caso de alterações quanto a novas funções ou que sejam feitas para atender a demandas legal, você será notificado com 30 dias de antecedência à vigência quanto ao caso de alterações a esses Termos que afetem direitos ou obrigações de qualquer parte deste Termos, por exemplo, através de notificação pelo serviço ou por um e-mail enviado à conta de e-mail associada à sua conta. Ao continuar a acessar ou utilizar os Serviços após a data de entrada em vigor das revisões, você aceita sujeitar-se à versão alterada dos Termos.</p>
+    <p>Se você mora no Brasil, regerão estes termos qualquer disputa que surgir entre você e a VZ. Todas as disputas relacionadas a esses termos ou Serviços serão apresentadas exclusivamente nos tribunais federais ou estaduais localizados no estado de São Paulo.</p>
+    <p>Se você é uma entidade do governo federal, estadual ou local no Brasil, que utiliza os Serviços em sua capacidade oficial e não pode legalmente aceitar as cláusulas de lei, jurisdição ou local de controle acima, essas cláusulas não se aplicam a você. Para essas entidades do governo federal do BR, estes Termos e qualquer ação relacionada a eles serão regidos pelas leis dos Pais (sem referência a conflitos de leis).</p>
+    <p>Caso qualquer cláusula destes Termos seja considerada inválida ou inexequível, essa cláusula será considerada limitada ou excluída na menor extensão possível para que a parte remanescente dos Termos se mantenha válida e produza os seus efeitos. A omissão pela VZ em exercer qualquer direito ou cláusula destes Termos não será considerada uma renúncia a qualquer direito ou cláusula.</p>
+    <p>Se você tiver alguma dúvida sobre esses Termos, entre em contato conosco.</p>
+    
+
+    
+  </div>
+  <div class="modal-footer">
+    <h3></h3>
+  </div>
+</div>
+
+</div>
+      
+
+    <!-- The Modal -->
+<div id="myModal1" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content">
+  <div class="modal-header">
+    <span class="close1">&times;</span>
+    <h2>POLÍTICA DE PRIVACIDADE VZ</h2>
+  </div>
+  <div class="modal-body">
+
+    <p>Política de Privacidade VZ</p>
+
+    <p>Acreditamos que você sempre deve saber quais dados coletamos de você e como os usamos, e que você deve ter um controle significativo sobre isso. Queremos capacitá-lo para tomar as melhores decisões sobre as informações que você compartilha conosco. Esse é o objetivo desta Política de Privacidade.</p>
+
+    <p>Você deve ler esta política na íntegra, mas aqui estão algumas coisas importantes que esperamos que você guarde:</p>
+
+    <p>A VZ é pública e os postagens são imediatamente visíveis e pesquisáveis por qualquer pessoa em todo o Brasil. Também oferecemos a você maneiras não públicas de se comunicar na VZ, por meio de postagens protegidas e Mensagens Diretas. Você também pode usar a VZ sob um pseudônimo se preferir não usar seu nome.</p>
+
+    <p>Quando você usar a VZ, mesmo que esteja somente olhando postagens, recebemos algumas informações pessoais de você, como o tipo de dispositivo que você está usando e o seu endereço IP. Você pode optar por compartilhar informações adicionais conosco, como seu endereço de e-mail, número de telefone, contatos do catálogo de endereços e um perfil público. Usamos essas informações para coisas como manter sua conta segura e mostrar a você postagens mais relevantes, pessoas para seguir, eventos e anúncios.</p>
+
+    <p>Fornecemos controle a você por meio de suas configurações para limitar os dados que coletamos de você e como os usamos, além de controlar itens como segurança da conta, preferências de marketing, aplicativos que podem acessar sua conta e contatos do catálogo de endereços que você subiu na VZ. Você também pode fazer o download das informações que você compartilhou na VZ. </p>
+
+    <p>Além das informações que você compartilha conosco, usamos suas postagens, o conteúdo que você leu, curtiu ou fez um compartilhamento, e outras informações para determinar em quais tópicos você está interessado, sua idade, os idiomas que você fala e outros sinais para mostrar conteúdo mais relevante para você. Nós oferecemos transparência nessas informações, e você pode modificá-las ou corrigi-las a qualquer momento.</p>
+
+    <p>Se você tiver dúvidas sobre esta política, sobre como coletamos ou processamos seus dados pessoais ou sobre qualquer outra coisa relacionada a nossas práticas de privacidade, gostaríamos de saber a sua opinião. Você pode entrar em contato conosco a qualquer momento.</p>
+    <br>
+
+    <p>INFORMAÇÕES QUE VOCÊ COMPARTILHA CONOSCO</p>
+
+    <p>Nós requeremos determinadas informações para fornecer nossos serviços para você. Por exemplo, você precisa ter uma conta para subir ou compartilhar conteúdo na VZ. Quando você optar por compartilhar as informações abaixo conosco, nós as coletaremos e usaremos para operar nossos serviços.</p>
+    <br>
+
+    <p>1.1 - INFORMAÇÕES BÁSICAS DA CONTA</p>
+
+    <p>Você não precisa criar uma conta para usar alguns dos recursos dos nossos serviços, como buscar e visualizar perfis públicos de usuários da VZ. Se você optar por criar uma conta, você precisa nos fornecer alguns dados pessoais para que possamos fornecer nossos serviços a você. Na VZ, isso inclui um nome de exibição (por exemplo, “Momentos VZ”), um nome de usuário (por exemplo, @MomentosVZ), uma senha e um endereço de e-mail ou número de telefone. Seu nome de exibição e nome de usuário são sempre públicos, mas você pode usar seu nome real ou um pseudônimo. Você também pode criar e gerenciar múltiplas contas no VZ1, por exemplo, para expressar diferentes partes de sua identidade.</p>
+    <br>
+
+    <p>1.2-INFORMAÇÕES PÚBLICAS</p>
+
+    <p>A maioria das atividades no VZ é pública, inclusive suas informações de perfil, seu fuso-horário e idioma, quando você criou a sua conta e suas postagens e determinadas informações sobre suas publicações como a data, horário. Você também pode optar por publicar a sua localização nas seus Publicações e no seu perfil na VZ. As listas que você criar, as pessoas que você seguir e quem seguir você, e Publicações que você curtiu ou fez um compartilhamento também são públicos. Se você gostar, compartilhar, responder ou se envolver publicamente com um anúncio em nossos serviços, esse anunciante poderá, assim, aprender informações sobre você associadas ao anúncio com o qual você se envolveu, como características do público-alvo que o anúncio deveria atingir. Suas curtidas, comentários, o número de curtidas que você recebeu, também são públicos. Informações publicadas sobre você por outras pessoas que usam nossos serviços também podem ser públicas. Por exemplo, outras pessoas podem marcá-lo em uma foto (se suas configurações permitirem) ou mencioná-lo em uma publicação.</p>
+
+    <p>Você é responsável por suas publicações e por outras informações que você fornecer por meio de nossos serviços e deve pensar cuidadosamente sobre o que tornar público, especialmente se forem informações sensíveis. Se você atualizar suas informações públicas na VZ, excluindo uma publicação ou desativando a sua conta, nós refletiremos seu conteúdo o atualizando.</p>
+
+    <p>Ao compartilhar publicamente um conteúdo através de uma Publicação, você está nos instruindo a divulgar essas informações da maneira mais ampla possível, inclusive por meio de nossas APIs, e direcionando àqueles que acessam as informações por meio de nossas APIs a fazer o mesmo. Para facilitar a rápida disseminação global de Publicações para pessoas em todo o mundo, usamos tecnologias como interfaces de programação de aplicativos (APIs) e incorporamos para disponibilizar algumas dessas informações para sites, aplicativos e para outros usos - por exemplo, para exibir Publicações em um site de notícias ou analisar o que as pessoas dizem na VZ. Geralmente, disponibilizamos esse conteúdo em quantidades limitadas gratuitamente e cobramos taxas de licenciamento para acesso em larga escala. Temos termos padrão que governam como esses dados podem ser usados e um programa de conformidade para aplicar esses termos. Mas esses indivíduos e empresas não são afiliados a VZ, e suas ofertas podem não refletir as atualizações que você faz no VZ. </p>
+    <br>
+
+    <p>1.3 - MENSAGENS DIRETAS E COMUNICAÇÕES NÃO PÚBLICAS</p>
+
+    <p>Fornecemos determinados recursos que permitem que você possa se comunicar de maneira mais privada ou controlar quem vê o seu conteúdo. Por exemplo, você pode usar Mensagens Diretas para ter conversas não públicas no VZ, proteger seus. Quando você se comunicar com outras pessoas ao enviar e receber Mensagens Diretas, nós armazenaremos e processaremos suas comunicações e informações relacionadas a elas. Isso inclui a verificação de links para conteúdo nocivo, a redução de links para URLs http://t.co, a detecção de spam, abuso, imagens proibidas, e uso de problemas relatados. Também usamos informações sobre com quem você se comunicou e quando (mas não o conteúdo dessas comunicações) para entender melhor o uso de nossos serviços, para proteger a segurança e integridade de nossa plataforma e para mostrar conteúdo mais relevante. Nós compartilhamos o conteúdo de suas Mensagens Diretas com as pessoas para as quais você as enviou; nós não os usamos para veicular anúncios. Observe que, se você interagir de uma maneira que seja normalmente pública com conteúdo da VZ compartilhado com você por Mensagem Direta, por exemplo, ao curtir um Publicação, essas interações serão públicas. Quando você usar recursos como Mensagens Diretas para se comunicar, lembre-se de que os destinatários têm sua própria cópia de suas comunicações na VZ - mesmo que você exclua sua cópia dessas mensagens da sua conta - que eles podem duplicar, armazenar ou compartilhar novamente.</p>
+    <br>
+
+    <p> 1.4-COMO VOCÊ CONTROLA AS INFORMAÇÕES QUE VOCÊ COMPARTILHAR CONOSCO</p>
+
+    <p>Suas Configurações de privacidade e segurança deixam você decidir:</p>
+
+    <p>Se as suas Publicações estão disponíveis publicamente na VZ;</p>
+
+    <p>Se outras pessoas podem marcar você em uma foto;</p>
+
+    <p>Se você pode receber Mensagens Diretas de qualquer pessoa na VZ ou somente de seus amigos;</p>
+
+    <p>Se outras pessoas podem encontrá-lo com base no seu e-mail ou número de telefone;</p>
+
+    <p>Se você deseja bloquear ou silenciar outras contas da VZ;</p>
+    <br>
+
+    <p>2.1-INFORMAÇÕES DE LOCALIZAÇÃO</p>
+
+    <p>Nós requeremos informações sobre seu registro e localização atual, que obtemos de sinais como seu endereço IP ou configurações do dispositivo, para configurar e manter sua conta com segurança e confiabilidade e para fornecer nossos serviços a você.</p>
+
+    <p>Sujeito às suas configurações, podemos coletar, usar e armazenar informações adicionais sobre sua localização, como sua posição exata atual ou locais onde você usou anteriormente a VZ, para operar ou personalizar nossos serviços, inclusive com conteúdo mais relevante, como tendências locais, histórias, anúncios e sugestões de pessoas para seguir. </p>
+    <br>
+
+    <p>2.2-Links</p>
+
+    <p>Para operar nossos serviços, acompanhamos como você interage com os links em nossos serviços. Isso inclui links em e-mails que enviamos a você e links em Publicações que aparecem em outros sites ou aplicativos móveis.</p>
+
+    <p>Se você clicar em um link ou anúncio externo em nossos serviços, esse anunciante ou operador de site poderá inferir que você veio da VZ, além de outras informações associadas ao anúncio em que você clicou, como características do público destinado a ser alcançado. Eles também podem coletar de você outros dados pessoais, como identificadores de cookies ou seu endereço IP.</p>
+    <br>
+
+    <p>2.3-COOKIES</p>
+
+    <p>Um cookie é um pequeno arquivo de dados que é armazenado em seu computador ou dispositivo móvel. Como muitos sites, usamos cookies e tecnologias semelhantes para coletar dados adicionais de uso do site e para operar nossos serviços. Os cookies não são requeridos para muitas partes de nossos serviços, como buscar e consultar perfis públicos. Embora a maioria dos navegadores da Web aceite cookies automaticamente, as configurações de muitos navegadores podem ser modificadas para recusar cookies ou alertá-lo quando um site estiver tentando inserir um cookie em seu computador. No entanto, é possível que alguns de nossos Serviços não funcionem adequadamente se você desativar os cookies. Quando seu navegador ou dispositivo permitir, nós usaremos cookies de sessão e cookies persistentes para entender melhor como você interage com nossos serviços, monitorar padrões de uso agregados, personalizar e operar nossos serviços, fornecer segurança de conta, personalizar o conteúdo que mostramos a você, inclusive anúncios, e lembrar suas preferências de idioma. Nós não oferecemos suporte à opção de navegador Não Rastrear. Saiba mais sobre como usamos cookies e outras tecnologias semelhantes aqui.</p>
+    <br>
+
+    <p>2.4-DADOS DE REGISTRO</p>
+
+    <p>Nós recebemos informações quando você visualiza conteúdo em ou interage com nossos serviços, o que nós chamamos de “Dados de Registro”, mesmo se não tiver criado uma conta. Por exemplo, quando você visita os nossos sites, acessa os nossos serviços, interage com as nossas notificações por e-mail, utiliza a sua conta para se autenticar em um site, aplicativo ou serviço de terceiro, ou quando visita um site, aplicativo ou serviço de terceiro que inclua conteúdo da VZ, podemos receber informações sobre você. Esses Dados de Registro podem incluir informações como o seu endereço IP, tipo de navegador, sistema operacional, página da Web de origem, páginas da Web visitadas, localização, sua operadora de telefonia celular, informações de dispositivo (inclusive Ids de dispositivo e aplicativos), termos de pesquisa (incluindo aqueles que não foram enviados como consultas) e informações de cookies. Também recebemos Dados de Registro quando você clica, visualiza ou interage com links em nossos serviços, inclusive quando você instala outro aplicativo por meio da VZ. Usamos os Dados de Registro para operar nossos serviços e assegurar seu desempenho seguro, confiável e robusto. Por exemplo, usamos os Dados de Registro para proteger a segurança das contas e para determinar qual conteúdo é popular em nossos serviços. Também usamos esses dados para melhorar o conteúdo que mostramos a você, inclusive anúncios para melhorar a eficácia de nosso próprio marketing.</p>
+
+    <p>Usamos as informações que você nos fornece e os dados que recebemos, inclusive Dados de Registro e dados de terceiros, para fazer inferências sobre quais tópicos você pode estar interessado, sua idade e os idiomas que você fala. Isso nos ajuda a promover e desenhar melhor nossos serviços para você e a personalizar o conteúdo que mostramos, inclusive anúncios.</p>
+    <br>
+
+    <p>2.5- Dados da VZ para a Web</p>
+
+    <p>Quando você visualiza nosso conteúdo em sites de terceiros que integram o conteúdo da VZ, como linhas de tempo incorporadas ou botões Publicação, podemos receber Dados de Registro que incluem a página da Web que você visitou. Usamos essas informações para entender melhor o uso de nossos serviços, para proteger a segurança e integridade de nossa plataforma e para mostrar conteúdo mais relevante, inclusive anúncios. Não associamos esse histórico de navegação da Web com seu nome, endereço de e-mail, número de telefone ou nome de usuário, e o excluímos, obliteramos ou agregamos após 30 dias. </p>
+    <br>
+
+    <p>2.6-PERSONALIZAÇÃO COM BASE EM SUA IDENTIDADE INFERIDA</p>
+    
+    <p>Quando você se registra na VZ com um navegador ou dispositivo, nós associamos esse navegador ou dispositivo com a sua conta para finalidades como autenticação, segurança e personalização. Sujeito às suas configurações, também podemos associar a sua conta a navegadores ou dispositivos diferentes daqueles que você usa para se registrar na VZ (ou associar seu dispositivo ou navegador desconectado a outros navegadores ou dispositivos). Quando você fornece outras informações ao VZ, incluindo um endereço de e-mail, associamos essas informações à sua conta da VZ. Fazemos isso para operar e personalizar nossos serviços. Por exemplo, se você visitar sites com conteúdo esportivo em seu laptop, poderemos mostrar-lhe anúncios relacionados a esporte no VZ para Android e, se o endereço de e-mail associado à sua conta compartilhar componentes com outro endereço de e-mail, como nome, sobrenome ou iniciais compartilhados, poderemos posteriormente corresponder a anúncios de anunciantes que estavam tentando acessar endereços de e-mail contendo esses componentes.</p>
+    <br>
+
+    <p>3.1-COMPARTILHANDO SEU CONTROLE</p>
+
+    <p>Nós compartilhamos ou divulgamos seus dados pessoais com o seu consentimento ou de acordo com as suas orientações, por exemplo, quando você autoriza que um cliente Web ou aplicativo de terceiros acesse a sua conta, ou quando você nos orienta a compartilhar seu feedback com uma empresa. Se você compartilhou informações como Mensagens Diretas ou Publicações protegidos com outra pessoa que acessar a VZ utilizando um serviço de terceiros, lembre-se de que as informações poderão ser compartilhadas com o serviço de terceiros.</p>
+
+    <p>Sujeito às suas configurações, também fornecemos a terceiros determinados dados pessoais para nos ajudar a oferecer ou operar nossos serviços. Você pode saber mais sobre essas parcerias em nossa Central de Ajuda e controlar se a VZ compartilha seus dados pessoais dessa maneira usando a opção “Permitir compartilhamento de informações adicionais com parceiros de negócios” em suas configurações de Personalização e Dados. (Esta configuração não controla o compartilhamento descrito em outras partes de nossa Política de Privacidade, como quando compartilhamos dados com nossos prestadores de serviços, ou através de parcerias diferentes das descritas na nossa Central de Ajuda.) </p>
+    <br>
+
+    <p>3.2-Legislação, Dano e Interesse Público</p>
+
+    <p>Não obstante qualquer disposição em contrário nesta Política de Privacidade ou nos controles que possamos oferecer a você, poderemos preservar, usar, compartilhar ou divulgar seus dados pessoais ou outros dados de segurança se acreditarmos que é razoavelmente necessário para o cumprimento de uma lei, regulamentação, processo legal ou solicitação governamental; para proteger a segurança de qualquer pessoa; para proteger a segurança ou integridade de nossa plataforma, inclusive para ajudar a prevenir spam, abuso ou agentes nocivos em nossos serviços, ou para explicar por que removemos conteúdo ou contas de nossos serviços; para endereçar questões de fraude, segurança ou técnicas; ou para proteger nossos direitos ou propriedade ou os direitos ou propriedade daqueles que usam nossos serviços. No entanto, nada nesta Política de Privacidade tem por objetivo limitar quaisquer direitos de defesa ou oposição que você possa ter em relação a solicitações de terceiros para a divulgação de seus dados pessoais, inclusive solicitações feitas por um governo.</p>
+    <br>
+
+    <p> 3.3-AFILIADAS E TRANSFERÊNCIA DE PROPRIEDADE</p>
+    
+    <p>Se estivermos envolvidos em um processo de falência, fusão, aquisição, reorganização ou de venda de ativos, seus dados pessoais poderão ser vendidos ou transferidos como parte dessa transação. Esta Política de Privacidade será aplicável aos seus dados pessoais conforme sejam transferidas à nova entidade. Também podemos divulgar dados pessoais sobre você às nossas empresas afiliadas para ajudar a operar nossos serviços e os serviços de nossas afiliadas, inclusive a veiculação de anúncios.</p>
+    <br>
+
+    <p>GERENCIANDO SUAS INFORMAÇÕES PESSOAIS CONOSCO</p>
+
+    <p>Você controla os dados pessoais que você compartilha conosco. Você pode acessar ou corrigir esses dados a qualquer momento. Você também pode desativar sua conta. Também fornecemos ferramentas para você fazer objeção, restringir ou retirar o consentimento, quando aplicável, para o uso dos dados que você forneceu a VZ. E fazemos com que os dados que você compartilhou por meio de nossos serviços sejam portáteis e fornecemos maneiras fáceis de entrar em contato conosco. Observe que, para ajudar a proteger sua privacidade e manter a segurança, tomamos medidas para verificar sua identidade antes de conceder acesso a suas informações pessoais ou cumprir exclusão, portabilidade ou outras solicitações relacionadas.</p>
+    <br>
+
+    <p>4.1-ACESSANDO OU RETIFICANDO SEUS DADOS PESSOAIS</p>
+
+    <p>Se você registrou uma conta na VZ, nós disponibilizamos a você ferramentas e configurações de conta para acessar, corrigir, excluir ou modificar os dados pessoais que você nos forneceu e que estejam associados à sua conta. Você pode baixar determinadas informações da conta, inclusive suas Publicações, seguindo as instruções aqui. Você pode saber mais sobre os interesses que inferimos sobre você em Seus Dados da VZ e solicitar acesso às informações adicionais aqui. Para enviar uma solicitação relacionada ao acesso, modificação ou exclusão de suas informações, você também pode entrar em contato conosco conforme especificado na seção "Como entrar em contato conosco" (Informações ou Assistência Adicionais).</p>
+    <br>
+
+    <p>4.2-EXCLUSÃO</p>
+
+    <p>Mantemos os Dados de Registro por 18 meses no máximo. Ao seguir as instruções aqui, sua conta será desativada. Quando desativada, sua conta da VZ, incluindo seu nome de exibição, nome de usuário e perfil público, não serão mais visíveis. Por até 30 dias após a desativação, ainda será possível restaurar a sua conta do VZ, caso ela tenha sido desativada acidentalmente ou indevidamente.</p>
+    
+    <p>Lembre-se de que os mecanismos de busca e outros terceiros ainda podem manter cópias de suas informações públicas, como as informações do seu perfil de usuário e Publicações públicos, mesmo após a exclusão das informações dos nossos serviços ou a desativação de sua conta. Saiba mais aqui.</p>
+    <br>
+
+    <p> 4.3- OBJEÇÃO, RESTRIÇÃO OU RETIRADA DE CONSENTIMENTO</p>
+
+    <p>Quando você está conectado em sua conta do VZ, você pode gerenciar suas configurações de privacidade e outros recursos da conta aqui a qualquer momento. Pode demorar um pouco para que as configurações de privacidade sejam totalmente refletidas em nossos sistemas.</p>
+    <br>
+
+    <p>4.5-INFORMAÇÕES OU ASSISTÊNCIA ADICIONAIS</p>
+
+    <p>Sugestões ou perguntas sobre esta Política de Privacidade? Avise-nos entrando em contato conosco.</p>
+    <br>
+
+    <p>ALTERAÇÕES A ESTA POLÍTICA DE PRIVACIDADE</p>
+
+    <p> Nós poderemos revisar esta Política de Privacidade de tempos em tempos. A versão mais atual da política regerá nosso processamento de seus dados. Se efetuarmos uma alteração a esta Política que, a nosso critério exclusivo, for substancial, nós o notificaremos na VZ, por meio de uma conta do VZ pertencente e operada pelo VZ (por exemplo, @VZSupport) ou por um e-mail enviado ao endereço eletrônico associado à sua conta. Ao continuar a acessar ou utilizar os Serviços após a data de entrada em vigor de tal alteração, você aceita e concorda em estar vinculado à versão revisada da Política de Privacidade. </p>
+    
+    <p>Em vigor desde: x de julho de 2021</p>
+
+    
+
+    </div>
+  <div class="modal-footer">
+    <h3></h3>
+  </div>
+</div>
+</div>
+
+</form>
+
+    </div>
+
+  </main>
+
+   <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+</html>
