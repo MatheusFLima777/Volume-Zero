@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<link rel="shortcut icon" href="img_volume/mundo.png">
+	<title>Volume Zero</title>
+</head>
+
+<body>
+
+	<!--cabecalho-->
+	<header class="header">
+		<!--Logo-->
+		<div class="logo"><a href="index.html">Volume Zero</a> <img  src="img_volume/mao.png" alt="" class="mao"></div>
+
+        <!--menu-->
+        <nav class="menu">
+          <ul>
+            <li><a class="menu1" href="#"> Surdez</a>
+               <!--submenu-->
+              <ul>        
+                <li><a href="Conteudo/Surdez/Sobre/sobre.html">Sobre a surdez, Tipos, Causas e Prevenções</a></li>
+                <li><a href="Conteudo/Surdez/Descobri/descobri.html">Descobri Que Meu Filho é Surdo? E Agora?</a></li>
+                <li><a href="Conteudo/Surdez/Dicas/dicas.html">Dicas Para interagir com um surdo</a></li>
+                <li><a href="Conteudo/Surdez/Aparelhos/Aparelhos.html">Aparelhos auditivos </a></li>
+              </ul>           
+              <!--fim do submenu--> 
+            </li>
+
+            <li><a class="menu2" href="#"> Acessibilidade</a>
+              <!--submenu-->
+              <ul>
+                <li class="ace"><a href="Conteudo/Acessibilidade/Leis/leis.html">Leis sobre Surdez, Libras e Cotas</a></li>
+                <li class="ace"><a href="Conteudo/Acessibilidade/Cursos/cursos.html">Cursos</a></li>
+                <li class="ace"><a href="Conteudo/Acessibilidade/Lugares/lugares.html">Lugares com acessibilidade</a></li>
+              </ul>
+              <!--fim do submenu--> 
+            </li>
+
+            <li><a class="menu3" href="#"> Entretenimento</a>
+               <!--submenu-->
+              <ul>        
+                <li class="ent"><a href="Conteudo/Entretenimento/Filmes/filmes.html">Filmes</a></li>
+                <li class="ent"><a href="Conteudo/Entretenimento/Livros/livros.html">Livros</a></li>
+                <li class="ent"><a href="Conteudo/Entretenimento/Influenciadores/influenciadores.html">Influenciadores</a></li>
+              </ul>
+              <!--fim do submenu--> 
+            </li>
+          </ul>
+        </nav>
+        <!--fim do menu--> 
+
+        <!--botão da rede social VZ-->
+        <a class="btn_link" href="DEMODAY/RedeSocial.html"><button class="login__submit2">Conheça a VZ</button></a>
+
+      </header>   
+      
+    <!--fim do cabecalho-->
+
+    <!--Descrição Volume zero-->
+
+      <div class="volume">
+        <!--Aviões do conteudo-->
+        <div class="planers">   
+          <img src="img_volume/planer1.png" id="planer1">
+          <img src="img_volume/planer2.png" id="planer2">
+          <img src="img_volume/planer3.png" id="planer3">
+        </div>
+
+        <!--conteudo da pagina da Volume-->
+        <div class="content"> 
+          <!--titulo do menu--> 
+          <div class="header">Um Mundo no Mudo</div>   
+          <!--conteudo-->
+          <p> Focado em trazer informações e dicas sobre o mundo da surdez, criamos um site e uma Rede Social para você! 
+            venha descobrir esse mundo de novas percepções e recheado de surpresas!</p>
+        </div>
+
+        <!--Imagem menina de fundo-->
+        <img id="fundo" src="img_volume/fundo.png" alt="" >
+
+        <!--Ondas-->      
+          <div>
+            <!--animação de ondas-->
+            <svg class="waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"
+              viewBox="0 24 150 28" preserveAspectRatio="none" shape-rendering="auto">
+              <defs>
+                <path id="gentle-wave" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z" />
+              </defs>
+              <g class="parallax">
+                <use xlink:href="#gentle-wave" x="48" y="0" fill="rgba(255, 255, 255, 60%)" />
+                <use xlink:href="#gentle-wave" x="48" y="3" fill="rgba(255, 255, 255, 70%)" />
+                <use xlink:href="#gentle-wave" x="48" y="5" fill="rgba(255, 255, 255,75%)" />
+                <use xlink:href="#gentle-wave" x="48" y="7" fill="rgba(255, 255, 255,80%)" />
+              </g>
+            </svg>
+          </div>
+        <!--Fim das Ondas--> 
+      </div>
+    
+    <!--Fim da Descrição Volume zero-->
+
+    <!--Descrição rede social VZ-->
+      <div class="vz">
+
+         <!--logo VZ-->
+        <p id="rede">VZ</p>
+
+        <!--conteudo da pagina da vz-->
+        <div class="content2"> 
+          <!--titulo da rede--> 
+          <div class="header2">O que é a VZ?</div>   
+          <!--conteudo-->
+          <br>
+          <p>Uma rede social que foi desenvolvida com o principal motivo de ser um ambiente onde as pessoas com deficiência auditiva e surdez
+            tenham uma comunidade que possam chamar de sua.</p>
+        </div>
+
+        <!--botão da rede social VZ-->
+        <a href="DEMODAY/RedeSocial.html"><button class="login__submit">Conheça a VZ</button></a>
+
+        <a href="login.html"><button class="cadastrar">Cadastrar</button></a>
+
+      </div>
+    <!--Fim da da rede social VZ-->
+
+    <!--Footer-->
+  <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="footer-col">
+            <h4>Sobre Nós</h4>
+            <ul>
+              <li class="sobre_nos"><p>O Volume Zero é um projeto criado pelos alunos do Instituto PROA com o intuito de  melhorar a inclusão para surdos.</p></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Contate-nos</h4>
+            <ul>
+              <li><a class="email" href="#">volumezerosa@gmail.com</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Siga a Volume Zero</h4>
+            <div class="social-links">
+              <a href="#"><img id="vzsl" src="img_volume/VZ.png" alt="" width="50%" ></a>
+            </div>
+            <div class="copy">
+              <span>&copy; Volume Zero 2021</span>
+            </div>
+          </div>
+        </div>
+         
+   </footer>
+    <!--Fim do footer-->
+   
+    <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+</body>
+
+</html>
