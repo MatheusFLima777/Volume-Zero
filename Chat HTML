@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="chat.css" rel="stylesheet">
+    <script defer src="./notificacao.js"></script>
+    <link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/xicon" />
+    <title>Chat da Volume Zero</title>
+</head>
+
+<body>
+    <header>
+    <a href="../index.html" style="text-decoration: none;" ><h1 class="title_vz">VZ</h1></a>
+        <nav>
+           
+            <a href="perfil.html"><img src="img_vz/icones/persona.png" title="Perfil"></a>
+            <a href="#" id="myBtn"><img src="img_vz/icones/sininho.png" title="Notificações"></a>
+            <div class="notification">
+                <span class="notification-number">19</span>
+            </div>
+            <a href="chat.html"><img class="chat_icon" src="img_vz/icones/chat.png" title="Chat de conversas"></a>
+            <a href="RedeSocial.html"><img src="img_vz/icones/feed.png" title="Feed de postagens"></a>
+            <a href="#"> <img src="img_vz/icones/sair.png" title="Sair" id="sair"></a>
+
+        </nav>
+    </header> 
+    
+    <div class="container">
+    <div class="row clearfix">
+        <div class="col-lg-12">
+            <div class="card chat-app">
+                <div id="plist" class="people-list">
+                    
+                    <!--campo de pesquisa-->
+                    <!--cp =campo pesquisa-->
+                            
+                    <!--fechamento do campo de pesquisa-->
+                   
+                    <ul class="chat-list ">
+
+                     
+                        <div class="pesquisar">
+                            <input class="pesquisar" type="text" placeholder="Pesquisar ou iniciar uma nova conversa">
+                        </div>
+                        
+
+                        <img src="img_vz/eu proa cortado.jpeg" title="avatar">
+                        <li id="exemp">                            
+                            <div class="about">
+                                <div class="visto_ultimo1">15:52h</div> 
+                                <div class="name">Vyviane Souza</div>
+                                 
+                                
+                                <div class="status"> <i class="fa fa-circle offline"></i> online  </div> 
+                               
+                            </div>
+                        </li>
+
+                        <img src="https://media.discordapp.net/attachments/829396170971152459/864219729073012737/vinicius.jpg" alt="avatar">
+
+                        <li class="clearfix">
+                            
+                            <div class="about">
+                                <div class="visto_ultimo1">15:52h</div> 
+                               
+                                <div class="name">Vinicius Honorato</div>
+                                <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                            </div>
+                        </li>
+
+                        <img src="img_vz/guilherme.jpg" title="foto do perfil social">
+                        
+                        <li class="clearfix">
+                            <div class="about">
+                                <div class="visto_ultimo1">15:52h</div> 
+                                <div class="name">Guilherme Brito</div>
+                                <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                            </div>
+                        </li>                    
+                        
+                        <img src="https://media.discordapp.net/attachments/829396170971152459/864217299103645726/wagner.jpg" alt="avatar">
+                        <li class="clearfix">
+                            
+                            <div class="about">
+                                <div class="visto_ultimo1">15:52h</div> 
+                                <div class="name">Wagner Junior</div>
+                                <div class="status"> <i class="fa fa-circle offline"></i> online </div>
+                            </div>
+                        </li>
+                        <img src="img_vz/kaique.jpg " alt="avatar">
+                        <li class="clearfix">
+                        
+                            <div class="about">
+                                <div class="visto_ultimo1">15:52h</div> 
+                                <div class="name">Kaique Graciano</div>
+                                <div class="status"> <i class="fa fa-circle online"></i> online </div>
+                            </div>
+                        </li>
+
+                        <img src="img_vz/matheus.jpg" alt="avatar">
+                        <li class="clearflix">
+                            <div class="about">
+                                <div class="visto_ultimo1">7:50h</div> 
+                                <div class="name">Matheus Ferreira</div>
+                                <div class="status2"> <i class="fa fa-circle offline"></i> offline </div>
+                            </div>
+                        </li>
+
+                        <img src="img_vz/Tawane.jpg" alt="avatar">
+                        <li class="clearflix">
+                            <div class="about">
+                                <div class="visto_ultimo1">11:37h</div> 
+                                <div class="name">Tawane Souza</div>
+                                <div class="status2"> <i class="fa fa-circle offline"></i> offline </div>
+                            </div>
+                        </li>
+
+                        <img src="img_vz/Samuel.jpg" alt="avatar">
+                        <li class="clearflix">
+                            <div class="about">
+                                <div class="visto_ultimo1">00:01h</div> 
+                                <div class="name">Samuel Alves</div>
+                                <div class="status2"> <i class="fa fa-circle offline"></i> offline </div>
+                            </div>
+                        </li>
+
+                    </ul>
+                </div>
+                <div class="chat">
+                    <div class="chat-header clearfix">
+                        <div class="row">
+                            <div class="col-lg-6">
+                               </a>
+                                <div class="chat-about">
+                                    <h6 class="m-b-0">Vyviane Souza</h6>
+                                   <!--<small>Last seen: 2 hours ago</small>-->
+                                </div>
+                            </div>
+                            <div class="col-lg-6 hidden-sm text-right">
+                                <a href="javascript:void(0);" class="btn btn-outline-secondary"><i class="fa fa-camera"></i></a>
+                                <a href="javascript:void(0);" class="btn btn-outline-primary"><i class="fa fa-image"></i></a>
+                                <a href="javascript:void(0);" class="btn btn-outline-info"><i class="fa fa-cogs"></i></a>
+                                <a href="javascript:void(0);" class="btn btn-outline-warning"><i class="fa fa-question"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="chat-history">
+                        <ul class="m-b-0">
+
+                            <li class="clearfix">
+                               
+                               
+                                <div class="message people2">
+                                  Oi Vyvi, você viu a reportagem sobre acessibilidade do proa que passou no jornal ?
+                                   <img id="check1" src="img_vz/icones/check.png" alt="">
+                                    
+                                    
+                                    <span class="time2">15:49h</span>
+                                 </div>
+
+                                 <img src="img_vz/gabriel.png" alt="">
+                                
+                            </li>
+
+                            <li class="clearfix">
+                                <p style="color: white; font-size: 13px; margin-left: 75px; margin-bottom:4px; font-weight: bold;"> Vyviane Souza</p>
+                                <img src="img_vz/eu proa cortado.jpeg" alt="">
+                               
+
+                                <div class="message people1">Poxa gab, acabei não conseguindo ver. <br>Você sabe onde ela está disponível? </div>
+                                <span class="time1">15:49h</span>
+                            </li> 
+                            
+                            
+                            <li class="clearfix">
+                    
+                               
+                                <div class="message people3">
+
+                                    No canal do youtube deles 
+                                    <img id="check3" src="img_vz/icones/check.png" alt="">
+                                    <span class="time2">15:51h</span>
+                                    
+                                 </div>
+
+                                 <img src="img_vz/gabriel.png" alt="">
+                                
+                            </li>
+                            
+                                <li class="clearfix">
+
+                                <p style="color: white; font-size: 13px; margin-left: 75px; font-weight:bold; margin-bottom: -10px;"> Vyviane Souza</p>
+                                <img src="img_vz/eu proa cortado.jpeg" alt="">
+                                
+                                
+                                <div class="message people1">Vlw, mais tarde eu vejo </div>
+
+                                <span class="time3">15:52h</span>
+                            </li>
+
+                        </ul>
+                    </div>
+                    <div class="chat-message clearfix">
+                        
+                        <img id="img_icon" src="img_vz/icones/img.png" alt="">
+                        <img id="arquivo" src="img_vz/icones/arquivo.png" alt="">
+                            <div class="input-group-prepend">
+                            </div>
+                            
+                            <img src="" alt="">
+
+                            <input type="text" class="Enviar" placeholder="Digite uma menssagem...">   
+                            <img src="img_vz/icones/enviar.png" alt="Enviar menssagem">           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+          <div class="vw-plugin-top-wrapper"></div>
+        </div>
+      </div>
+      <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+      <script>
+        new window.VLibras.Widget("https://vlibras.gov.br/app");
+      </script>
+
+
+
+
+
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="border_gradient">
+<div class="modal-content">
+
+
+        <div class="notificacao_container">
+            
+         <span class="close3">&times;</span>
+         <img src="img_vz/icones/sino.png" alt="" class="icon2">
+         <h1 class="notificacao_title">Notificações</h1>
+         <hr>
+         <div class="notificacao_new">
+         <ul>
+             <li class="pink"> <b> Monte Negro </b>lhe enviou uma mensagem. <p>Há 30 minutos </p></li>
+             <hr>
+             <li class="azul"> <b>Roberto soares </b> começou a seguir você. <p>Há 5 horas</p></li>
+             <hr>
+             <li class="pink"> <b>Pablo Escobar </b> compartilhou a sua publicação : ‘’Orgulho em ser surda!!” <p>Há 9 horas</p></li>
+             <hr>
+             <li class="azul"> <b>Fabiana Perez </b> curtiu a sua publicação : ‘’Hoje passei... <p>Há 15 horas</p></li>
+             <hr>
+             <li class="pink"> <b>Sueli Margarete </b> realizou uma nova postagem.. <p>Há 21 horas</p></li>
+             <hr>
+             <li class="azul"> <b>Julia Siva </b> compartilhou a sua publicação : ‘’Orgulho em ser surda!!” <p>Há 1 dia</p></li>
+             <hr>
+        </ul>
+        </div>
+      <button class="btn_notificacao"> Mais...</button>
+    </div>
+  </div>
+</div>
+</div>
+
+</body>
+
+</html>0
