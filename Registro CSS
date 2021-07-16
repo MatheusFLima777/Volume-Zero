@@ -1,0 +1,214 @@
+:root{
+  --input-linear:linear-gradient(120deg, #FA00FF, #00E0FF);
+  --button-linear:linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  --border-height: 1px;
+}
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.register{
+  height: 100vh;
+  background: #00183C;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register_container{
+  height: 500px;
+  width: 400px;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 32px;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+}
+
+.register_tittle{
+  margin-bottom: 32px;
+  color: #303030;
+}
+
+.register_form{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.register_input{
+  height: 48px;
+  width: 100%;
+  box-sizing: border-box;
+  padding-left: 8px;
+  border: unset;
+  outline: none;
+}
+
+.register_input-border{
+  height: var(--border-height);
+  width: 100%;
+  background-color: #cfcfcf;
+  transition: .3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.register_input-border::after{
+  content: "";
+  display: block;
+  height: var(--border-height);
+  width: 0;
+  background: var(--input-linear);
+  transition: .3s ease-in-out;
+  margin-bottom: 10px;
+}
+
+.register_input:focus + .register_input-border::after{
+  width: 100%;
+}
+
+.terms_of_use{
+  margin-bottom: 10px;
+  color: #929292;
+  text-decoration: none;
+}
+.terms_of_use:hover{
+  
+  color: #15C0E5;
+  transition: 0.5s;
+}
+
+.register_terms{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px;
+  color: #929292;
+  text-decoration: none;
+}
+
+.register_submit{
+  height: 48px;
+  width: 100%;
+  outline: none;
+  background: linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  background-size: 200%;
+  margin-bottom: 10px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.5s ease-in-out;
+}
+
+.register_submit:hover{
+  background-position: right;
+} 
+
+.login_redirect{
+  font-size: 12px;
+  color: #929292;
+  text-decoration: none;
+}
+
+
+
+
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.close1 {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close1:hover,
+.close1:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+
+/* Modal Header */
+.modal-header {
+  padding: 2px 16px;
+  background: linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  color: white;
+}
+
+/* Modal Body */
+.modal-body {padding: 2px 16px;}
+
+/* Modal Footer */
+.modal-footer {
+  padding: 2px 16px;
+  background: linear-gradient(120deg, #FA00FF, #00E0FF, #FA00FF);
+  color: white;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+  background-color: #fefefe;
+  margin: auto;
+  padding: 0;
+  border: 1px solid #888;
+  width: 80%;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+  animation-name: animatetop;
+  animation-duration: 0.4s
+}
+
+/* Add Animation */
+@keyframes animatetop {
+  from {top: -300px; opacity: 0}
+  to {top: 0; opacity: 1}
+}
