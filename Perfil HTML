@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="perfil.css">
+	<script defer src="./editar.js">
+	</script>
+	<link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/xicon" />
+	<title>Gabriel Augusto</title>
+</head>
+
+<body>
+
+	<header>
+		<div class="lateral">
+    <a href="../index.html" style="text-decoration: none;"><h1 class="title_vz">VZ</h1></a>			<nav>
+				<a href="perfil.html"><img class="perfil_icon" src="img_vz/icones/persona.png" title="Perfil"></a>
+        <a href="#"><img src="img_vz/icones/sininho.png" alt="Notificações"></a>
+        <div class="notification">
+          <span class="notification-number">19</span>
+        </div>
+        <a href="chat.html"><img src="img_vz/icones/chat.png" title="Chat de conversas"></a>
+        <div class="notification">
+          <span class="notification-number">9</span>
+        </div>
+        <a href="RedeSocial.html"><img src="img_vz/icones/feed.png" title="Feed de postagens"></a>
+        <a href="#"> <img src="img_vz/icones/sair.png" title="Sair" id="sair"></a>
+      </nav>
+    </div>
+  </header>
+
+  <div class="container">
+
+    <form method="POST" enctype="multipart/form-data">
+      <img class="persona" src="img_vz/gabriel.png">
+
+
+
+      <div class="perfil_name">
+        <div class="name">Gabriel Augusto </div>
+      </div>
+
+      <div class="info_perfil">
+        <ul class="seguidores_perfil">
+          <li>10 </li>
+          <li style="color:  #c7c7c7; margin-left: -2px;">Publicações</li>
+          <li>500k </li>
+          <li style="color: #c7c7c7; margin-left: -2px;">Seguidores</li>
+          <li>7k </li>
+          <li style="color: #c7c7c7 ; margin-left: -2px;">Seguindo</li>
+        </ul>
+      </div>
+      <div class="bio_perfil">
+        <p>  Um Heroí da mata, pai de dois:  Ele Dirceu a criança e <br> ela bolo de cenoura junior. </p>
+      </div>
+
+      <span class="login_editar" type="" id="myBtn"><p>Editar perfil</p></span>
+    </form>
+    <hr class="hr_perfil">
+
+    <div class="card">
+      <div class="mails">
+        <img src="img_vz/gabriel.png">
+        <div class="mail-names">
+          Gabriel Augusto
+          <div class="date">12h </div>
+
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            87
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            20
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            13
+          </a>
+
+          <a href="#" class="album-action" id="denuncia"><img src="img_vz/icones/denuncia.png" alt=""></a>
+        </div>
+      </div>
+
+      <div class="post_texto1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Bcq6GPyMfPo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        A sociedade sempre chama os surdos de mudos. Por quê?
+
+      </div>
+
+    </div>
+
+    <div class="card2">
+      <div class="mails2">
+        <img src="img_vz/gabriel.png">
+        <div class="mail-names">
+          <h4> Gabriel Augusto</h4>
+          <div class="date">18h </div>
+
+        </div>
+        <div class="album-actions2">
+          <a href="#" class="album-action2">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            27
+          </a>
+          <a href="#" class="album-action2">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            18
+          </a>
+          <a href="#" class="album-action2">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            2
+          </a>
+          <a href="#" class="album-action" id="denuncia"><img src="img_vz/icones/denuncia.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post_texto">
+       Boa noite, Pessoal! Gostaria, primeiramente, de parabenizar os criadores do volume zero pelo site.
+        Devido à meningite, amanheci sem ouvir nada no ouvido direito, o que se manteve até hoje. Fiz exame de audiometria e foi constatado que a minha audição do ouvido direito estava comprometida totalmente. Os níveis aferidos estavam todos baixos, senão zerados.
+        Também tive afetado o nervo do equilíbrio.
+        Foi um golpe duro quando descobri que não poderia mais ouvir do ouvido direito, no entanto, como você disse, sou agradecido pelas pequenas coisas da vida. Não reclamo. Não murmuro. Sei que isso só afetaria ainda mais a minha estima, então tento relevar isso. Penso que a vida prega suas peças e nós, quando não podemos evitá-las, temos de nos adaptar. VIDA QUE SEGUE!
+      </div>
+    </div>
+
+
+    <div class="card3">
+      <div class="mails">
+        <img src="img_vz/gabriel.png">
+        <div class="mail-names">
+          Gabriel Augusto
+          <div class="date">23h </div>
+
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            56
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            64
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            5
+          </a>
+          <a href="#" class="album-action" id="denuncia"><img src="img_vz/icones/denuncia.png" alt=""></a>
+        </div>
+      </div>
+      <div class="post_texto1">
+        <img id="publi1" src="https://lh3.googleusercontent.com/proxy/ioXHSgvg0pNOz-sLlzFj3hB3smIn_aPZbE5uvyfZ_RBLCgCgxVHzHFQ1eExbPbmtAm-a82VbF9qaMHNJCIcdEzy68Kha5J5s9ysygv9YHg7ObFFNPPtLpA6O9Ne3dOoUhBjW5JJsaBdf5nE" alt="">
+        "Você precisa ser participante deste mundo onde mãos falam e olhos escutam, é um mundo especial para pessoas especiais..."
+
+      </div>
+    </div>
+  </div>
+
+  <div class="Mural">
+
+    <div class="search-bar">
+      <input class="pesquisar_mural" type="text" placeholder="Pesquisar">
+    </div>
+
+    <main class="mural">
+      <div class="mural_container">
+        <h1 class="mural_title">O que a comunidade surda está vendo?</h1>
+        <hr>
+
+        <ul>
+          <li class="sub_title"> #Comunicação </li>
+        </ul>
+
+        <ul>
+          <li> <img src="img_vz/comunicacao.png" alt=""> Surdos que não usam Libras pedem apoio para inclusão em escolas
+
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title"> #Entretenimento </li>
+        </ul>
+
+        <ul>
+          <li> <img src="img_vz/entretenimento.png" alt=""> Neste sábado (30) Alok fará primeiro show de eletrônica para
+            surdos </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title"> #Histórias </li>
+        </ul>
+
+        <ul>
+          <li> <img src="img_vz/historia.png" alt=""> Conheça a história de Janaína, que nasceu com surdez profunda</li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title"> #filmes </li>
+        </ul>
+
+        <ul>
+          <li>"Um Lugar Silencioso 2 vai ter spin-off": final do filme tem spoiler da continuação </li>
+        </ul>
+
+      </div>
+
+    </main>
+
+    <div class="propaganda">
+    <img src="img_vz/propaganda2.png" alt="">
+    </div>
+
+    <div class="sugestao_caixa">
+      <h2>Sugestões de Amizade:</h2>
+      <hr>
+      <div class="sugestao_mural">
+        <ul class="s1">
+          <li class="sugestao_img"><img src="img_vz/marcio.png" alt=""></li>
+          <p id="nome_sugestao">Marcio Franco</p>
+          <button class="sugestao_btn" type="#" name="btn_postar">Ver Perfil</button>
+        </ul>
+
+
+        <ul class="s1">
+          <li class="sugestao_img"><img src="img_vz/wesley.png" alt=""></li>
+          <p id="nome_sugestao">Wesley Linares</p>
+          <button class="sugestao_btn" type="#" name="btn_postar">Ver Perfil</button>
+
+        </ul>
+
+        <ul class="s1">
+          <li class="sugestao_img"><img src="img_vz/miche.png" alt=""></li>
+          <p id="nome_sugestao">Michele Cavalcante</p>
+          <button class="sugestao_btn" type="#" name="btn_postar">Ver Perfil</button>
+
+        </ul>
+
+      </div>
+    </div>
+
+    
+    <div class="propaganda">
+      <img src="img_vz/propaganda1.png" alt="">
+      </div>
+
+  </div>
+
+
+
+
+<!--  The Moda -->
+  <div id="myModal" class="modal" style="display: none;">
+    <!-- Modal content -->
+    <div class="border_gradient_editar">
+      <div class="modal-content">
+
+
+        <span class="close">×</span>
+
+        <img src="img_vz/icones/editar.png" alt="" class="icon2">
+        <h1 class="editar_title">Editar Perfil</h1>
+        <hr>
+
+        <table>
+          <tbody>
+            <tr>
+              <td>
+                <label for="Saida">Nome:</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <textarea name="nome" id="nome" cols="30" rows="10"></textarea>
+
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Saida">Bio:</label>
+              </td>
+            </tr>
+            <tr>
+
+              <td>
+                <textarea name="Bio" id="bio" cols="30" rows="10"></textarea>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="Saida">Data de nascimento:</label>
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <input type="date" name="saida">
+              </td>
+            </tr>
+          </tbody>
+        </table>
+        <button class="login">Salvar</button>
+      </div>
+
+
+      <!--Inicio modal Denuncia-->
+
+
+      <div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="border_gradient">
+          <div class="modal-content">
+
+
+            <span class="close">&times;</span>
+
+            <img src="img_vz/icones/editar.png" alt="" class="icon2">
+            <h1 class="editar_title">Editar Perfil</h1>
+            <hr class="hr_editar">
+
+            <table>
+              <tr>
+                <td>
+                  <label for='Saida'>Nome:</label>
+              <tr>
+                <td>
+                  <textarea name="nome" id="nome" cols="30" rows="10"></textarea>
+
+              <tr>
+                <td>
+                  <label for='Saida'>Bio:</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <textarea name="Bio" id="bio" cols="30" rows="10"></textarea>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <label for='Saida'>Data de nascimento:</label>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <input type='date' name="saida" />
+                </td>
+              </tr>
+            </table>
+            <button class="login">Salvar</button>
+          </div>
+
+        </div>
+
+      </div>
+
+      </div>
+  </div>
+</div>
+
+      <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+
+</body>
+
+</html>
