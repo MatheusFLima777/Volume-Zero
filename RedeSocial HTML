@@ -1,0 +1,703 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="RedeSocial.css" rel="stylesheet">
+	<script defer src="./comentarios.js">
+	</script>
+	<script defer src="./denuncia.js">
+	</script>
+	<script defer src="./notificacao.js">
+	</script>
+
+	<link rel="shortcut icon" href="favicon/favicon-32x32.png" type="image/xicon" />
+
+	<title>Volume Zero</title>
+</head>
+
+<body>
+	<header>
+		<div class="lateral">
+			<a href="../index.html" style="text-decoration: none;">
+				<h1 class="title_vz">VZ</h1>
+			</a>
+			<nav>
+				<a href="perfil.html"><img src="img_vz/icones/persona.png" title="Perfil"></a>
+      <a href="#" id="myBtn0"><img src="img_vz/icones/sininho.png" alt="Notificações"></a>
+      <div class="notification"  >
+        <span class="notification-number">19</span>
+      </div>
+      <a href="chat.html"><img src="img_vz/icones/chat.png" title="Chat de conversas"></a>
+      <div class="notification">
+        <span class="notification-number">9</span>
+      </div>
+      <a href="#"><img class="feed_icon" src="img_vz/icones/feed.png" title="Feed de postagens"></a>
+      <a href="../login.html"> <img id="sair" src="img_vz/icones/sair.png" title="Sair"></a>
+    </nav>
+  </div>
+  </header>
+
+  <div class="container">
+
+    <form method="POST" enctype="multipart/form-data">
+      <img class="persona" src="img_vz/icones/persona.png">
+      <textarea name="NewPost" cols="50" rows="5" placeholder="O que está acontecendo?"></textarea>
+      <button class="login__submit" type="submit" name= "btn_postar">Postar</button>
+    </form>
+    <hr>
+
+    <div class="card">
+      <div class="mails">
+        <img src="img_vz/kaique.jpg">
+        <div class="mail-names">
+          Kaique Graciano
+          <div class="date">12h </div>
+          
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action" id="coracao">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path 
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            87
+          </a>
+          <a href="#" class="album-action" id="myBtn">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path  d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            20
+          </a>
+          <a href="#" class="album-action" id="compartilhar">
+            <svg  stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            13
+          </a>
+          <a href="#"  class="album-action"  id="DenunciaBtn2"><img src="img_vz/icones/denuncia.png" alt="" style="width: 20px;"></a>
+        </div>
+      </div>
+      <div class="post_texto1">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/liI_4OIA8ag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        "Você pode pensar que o novo reality show da Netflix, Além do Som, é apenas uma história alegre sobre alunos surdos… mas eles também passam por tantos dramas de relacionamento interessantes quanto qualquer outra pessoa, como prova um novo trailer."
+
+     
+     </div>
+    </div>
+
+
+    <div class="card2">
+      <div class="mails">
+        <img src="https://media.discordapp.net/attachments/829396170971152459/864219729073012737/vinicius.jpg">
+        <div class="mail-names">
+          Wagner Junior
+          <div class="date">1d </div>
+          
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action" id="coracao">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24" style="color: rgb(248, 0, 0);">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            100
+          </a>
+          <a href="#" class="album-action" id="comentario">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            15
+          </a>
+          <a href="#" class="album-action" id="compartilhar">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            25
+          </a>
+          <a href="#"  class="album-action" ><img src="img_vz/icones/denuncia.png" alt="" style="width: 20px;"></a>
+          
+          </a>
+
+        </div>
+      </div>
+      <div class="post_texto1">
+        <img  id="publi1" src="img_vz/publi2.png" alt="">
+        "Em minha silenciosa escuridão,
+        Mais claro que o ofuscante sol,
+        Está tudo que desejarias ocultar de mim.
+        
+        Mais que palavras,
+        Tuas mãos me contam tudo que recusavas dizer
+        Frementes de ansiedade ou tremulas de fúria,
+        Verdadeira amizade ou mentira,
+        Tudo se revela ao toque de uma mão:
+        
+        Quem é estranho,
+        Quem é amigo...
+        Tudo vejo em minha silenciosa escuridão.
+        Dê-me tua mão que te direi quem és."
+     
+     </div>
+    </div>
+
+
+    <div class="card3">
+      <div class="mails">
+        <img src="img_vz/gabriel.png">
+        <div class="mail-names">
+         <h4> Gabriel Augusto</h4>
+          <div class="date">12h </div>
+          
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            27
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            18
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            2
+          </a>
+          <a href="#"  class="album-action" id="denunciax"><img src="img_vz/icones/denuncia.png" alt="" style="width: 20px;"></a>
+        </div>
+      </div>
+     <div class="post_texto">
+       <br>
+       O Volume Zero é uma plataforma única e com um valor incrível. A iniciativa promove um mundo melhor para pessoas que não são ouvidas em diversos níveis na nossa sociedade. Ela é produzida com boa fé por alunos que se tornaram mestres em tocar a sociedade e contar histórias de pessoas que, principalmente, nos ensinam a ouvir.
+     </div>
+    </div>
+    
+    <div class="card4">
+      <div class="mails">
+        <img src="img_vz/eu proa cortado.jpeg">
+        <div class="mail-names">
+          Vyviane Souza
+          <div class="date">2d </div>
+        </div>
+
+        <div class="album-actions">
+          <a href="#" class="album-action" id="coracao">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24" style="color: rgb(248, 0, 0);">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            250
+          </a>
+          <a href="#" class="album-action" id="comentario">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            50
+          </a>
+          <a href="#" class="album-action" id="compartilhar">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            7
+          </a>
+
+          <a href="#"  class="album-action" id="denuncia"><img src="img_vz/icones/denuncia.png" alt="" style="width: 20px;margin: left -10px;"></a>
+        </div>
+      </div>
+      <div class="post_texto1">
+        <img  id="publi1" src="img_vz/publi6.jpg" alt="">
+        Para comemorar o Dia Nacional do Surdo, data em que a comunidade de surdos brasileiros é homenageada, a Escola para Crianças Surdas Rio Branco, promoveu o 7º Encontro Comemorativo do Dia do Surdo, evento que reuniu cerca de 500 pessoas, entre surdos e ouvintes. Devido à grande procura, as apresentações estarão online no site da ECS RB, pelo período de 30 dias.  
+     </div>
+    </div>
+
+    <div class="card3">
+      <div class="mails">
+        <img src="img_vz/Diogo.jpg">
+        <div class="mail-names">
+         <h4>Diego Lisboa</h4>
+          <div class="date">12h </div>
+          
+        </div>
+        <div class="album-actions">
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              viewBox="0 0 24 24">
+              <path
+                d="M20.84 4.61a5.5 5.5 0 00-7.78 0L12 5.67l-1.06-1.06a5.5 5.5 0 00-7.78 7.78l1.06 1.06L12 21.23l7.78-7.78 1.06-1.06a5.5 5.5 0 000-7.78z">
+              </path>
+            </svg>
+            27
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M21 15a2 2 0 01-2 2H7l-4 4V5a2 2 0 012-2h14a2 2 0 012 2z"></path>
+            </svg>
+            18
+          </a>
+          <a href="#" class="album-action">
+            <svg stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"
+              class="css-i6dzq1" viewBox="0 0 24 24">
+              <path d="M17 1l4 4-4 4"></path>
+              <path d="M3 11V9a4 4 0 014-4h14M7 23l-4-4 4-4"></path>
+              <path d="M21 13v2a4 4 0 01-4 4H3"></path>
+            </svg>
+            2
+          </a>
+
+          <a href="#"  class="album-action" id="denuncia"><img src="img_vz/icones/denuncia.png" alt="" style="width: 20px;"></a>
+        </div>
+      </div>
+     <div class="post_texto">
+       “Meu nome é Diogo e sou marido da Esther. Eu e a Esther estamos juntos há 6 anos, quase 2 de casados. Quando nos conhecemos, ela não tinha deficiência auditiva. Mas trabalhava com surdos, cursava Educação Especial. Com o passar dos anos, ela passou a ter dificuldade para falar ao telefone, o som e a televisão sempre num volume cada vez mais alto. Sinal de alerta! Procurou profissionais especializados e veio o diagnóstico da perda auditiva progressiva e “vai ter que fazer uso de aparelhos”.
+    </div>
+    </div>
+
+    <img src="img_vz/icones/carregando.png" id="carregando" alt="">
+    <p class="final">Carregando...</p>
+  </div>
+
+
+  <!--CAIXA "O QUE A COMUNIDADE ESTÁ VENDO?-->
+  
+  <div class="Mural">
+
+    <div class="search-bar">
+      <input id="pesquisar_mural" type="text" placeholder="Pesquisar">
+    </div>
+
+    <main class="mural">
+      <div class="mural_container">
+        <h1 class="mural_title">O que a comunidade surda está vendo?</h1>
+        <hr>
+
+        <ul>
+          <li class="sub_title" >  #Comunicação </li>
+        </ul>
+
+        <ul>
+          <li class="conteudo">  <img class="conteudo_img" src="img_vz/comunicacao.png" alt=""> Surdos que não usam Libras pedem  apoio para inclusão em escolas
+
+          </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title" >  #Entretenimento </li>
+        </ul>
+
+        <ul>
+          <li class="conteudo">  <img class="conteudo_img"  src="img_vz/entretenimento.png" alt=""> Neste sábado (30) Alok fará primeiro show de eletrônica para surdos </li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title" > #Histórias </li>
+        </ul>
+
+        <ul>
+          <li class="conteudo">  <img class="conteudo_img"  src="img_vz/historia.png" alt=""> Conheça a história de Janaína, que nasceu com surdez profunda</li>
+        </ul>
+        <hr>
+        <ul>
+          <li class="sub_title" > #filmes </li>
+        </ul>
+
+        <ul>
+          <li class="conteudo">  "Um Lugar Silencioso 2 vai ter spin-off": final do filme tem spoiler da continuação </li>
+        </ul>
+        
+      </div>
+
+    </main>
+
+    <div class="propaganda">
+      <img src="img_vz/propaganda4.png" alt="">
+      </div>
+
+
+    <!--CAIXA DE SUGESTÕES DE AMIZADE-->
+    
+    <div class="sugestao_caixa">
+      <h2>Sugestões de Amizade:</h2>
+      <hr>
+    <div class="sugestao_mural">
+      <ul class="s1">
+        <li class="sugestao_img"><img src="img_vz/Tawane.jpg" alt=""></li>
+        <p id="nome_sugestao">Tawane Souza</p>
+        <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+      </ul>
+
+
+      <ul class="s1">
+        <li class="sugestao_img"><img src="img_vz/Diogo.jpg" alt=""></li>
+        <p id="nome_sugestao">Diogo Lisboa</p>
+        <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+      
+      </ul>
+
+      <ul class="s1">
+        <li class="sugestao_img"><img src="img_vz/Samuel.jpg" alt=""></li>
+        <p id="nome_sugestao">Samuel</p>
+        <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+    
+      </ul>
+
+    </div>
+  </div>
+
+  
+  <div class="propaganda">
+    <img src="img_vz/publi5.png" alt="">
+    </div>
+
+    <div class="sugestao_caixa">
+    <h2>Sugestões de Amizade:</h2>
+    <hr>
+  <div class="sugestao_mural">
+    <ul class="s1">
+      <li class="sugestao_img"><img src="img_vz/marcio.png" alt=""></li>
+      <p id="nome_sugestao">Marcio Franco</p>
+      <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+    </ul>
+
+
+    <ul class="s1">
+      <li class="sugestao_img"><img src="img_vz/wesley.png" alt="">  </li>
+      <p id="nome_sugestao">Wesley Linares</p>
+      <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+    
+    </ul>
+
+    <ul class="s1">
+      <li class="sugestao_img"><img src="img_vz/miche.png" alt="">  </li>
+      <p id="nome_sugestao">Michele Cavalcante</p>
+      <button class="sugestao_btn" type="#" name= "btn_postar">Ver Perfil</button>
+  
+    </ul>
+
+  </div>
+</div>
+
+<div class="propaganda">
+  <img src="img_vz/propaganda1.png" alt="">
+  </div>
+
+  </div>
+
+  
+<!--inicio MODAL COMENTARIO-->
+
+  
+<!-- The Modal -->
+<div id="myModal" class="modal">
+<!-- Modal content -->
+<div class="border_gradient_comentario">
+<div class="modal-content">
+
+        <main class="comentario">
+
+        <div class="comentario_container">
+
+         <span class="close">&times;</span>
+            <h1 class="comentario__title">Comentários</h1>
+            <hr>
+            <ul class="modal_comentario">
+                <img src="img_vz/eu proa cortado.jpeg" alt="">
+                <li class="c1">
+                   <strong>Vyviane Souza</strong>
+                    <div class="data">
+                        8h
+                    </div>
+                    <p>sed do eiusmod tempor incididunt ut labore </p>
+                    <div class="icones">
+                        <a href="#" class="icon" >
+
+                            <svg width="31" height="32" viewBox="0 0 31 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.9886 16.8098C30.6396 15.9495 31 14.8955 31 13.7989C31 12.059 30.0274 10.4122 28.4619 9.49378C28.0589 9.25738 27.6 9.13297 27.1328 9.1334H17.8405L18.073 4.37103C18.1273 3.22015 17.7204 2.1274 16.9299 1.29428C16.5419 0.883638 16.0739 0.556917 15.5547 0.334306C15.0355 0.111696 14.4762 -0.00207318 13.9113 2.85981e-05C11.8962 2.85981e-05 10.1138 1.35628 9.579 3.29765L6.25037 15.3489H1.24C0.554125 15.3489 0 15.903 0 16.5889V30.6939C0 31.3798 0.554125 31.9339 1.24 31.9339H24.5404C24.8969 31.9339 25.2456 31.8642 25.5672 31.7247C27.4117 30.938 28.6014 29.1362 28.6014 27.1367C28.6014 26.6484 28.5316 26.1679 28.3921 25.7029C29.0431 24.8427 29.4035 23.7887 29.4035 22.692C29.4035 22.2038 29.3338 21.7233 29.1943 21.2583C29.8453 20.398 30.2056 19.344 30.2056 18.2474C30.1979 17.7592 30.1281 17.2748 29.9886 16.8098ZM2.79 29.1439V18.1389H5.92875V29.1439H2.79ZM27.4505 15.4652L26.6019 16.2014L27.1405 17.1857C27.318 17.5099 27.41 17.8739 27.4079 18.2435C27.4079 18.8829 27.1289 19.4913 26.6484 19.9098L25.7997 20.646L26.3384 21.6303C26.5158 21.9545 26.6078 22.3186 26.6057 22.6882C26.6057 23.3275 26.3267 23.9359 25.8463 24.3544L24.9976 25.0907L25.5363 26.0749C25.7137 26.3991 25.8057 26.7632 25.8036 27.1328C25.8036 28.0008 25.2921 28.7835 24.5016 29.14H8.40875V18.0149L12.2644 4.04553C12.3638 3.68748 12.5772 3.3716 12.8723 3.14574C13.1674 2.91988 13.528 2.79637 13.8996 2.7939C14.1941 2.7939 14.4847 2.87915 14.7172 3.05353C15.1009 3.34028 15.3062 3.77428 15.283 4.2354L14.911 11.9234H27.094C27.7838 12.3458 28.21 13.0588 28.21 13.7989C28.21 14.4383 27.931 15.0428 27.4505 15.4652Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="15.5" y1="0" x2="15.5" y2="31.9339"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                          <p id="quant">65</p> 
+                        </a>
+                        
+                        <a href="#" class="icon" >
+                            <svg width="37" height="32" viewBox="0 0 37 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.6801 2.86733L36.077 22.7093C37.8585 25.5591 36.9835 29.3084 34.1215 31.0827C33.1609 31.6803 32.0413 31.9989 30.8969 32H6.10132C2.73246 32 0 29.28 0 25.9217C0 24.7857 0.320051 23.6746 0.921302 22.7093L13.32 2.86733C15.0997 0.0175259 18.8627 -0.85537 21.7246 0.918867C22.5164 1.40954 23.1861 2.07621 23.6801 2.86733ZM19.5731 4.35889C19.3466 4.2189 19.0929 4.12449 18.8274 4.08134C18.5619 4.0382 18.29 4.04722 18.0282 4.10787C17.7664 4.16852 17.5202 4.27953 17.3043 4.43421C17.0884 4.58888 16.9074 4.784 16.7721 5.00779L4.37526 24.8533C4.17389 25.1767 4.06774 25.5466 4.06816 25.9235C4.06816 27.0435 4.97836 27.9502 6.10317 27.9502H30.8951C31.2762 27.9502 31.648 27.8435 31.9699 27.6444C32.4319 27.3495 32.7576 26.8947 32.8792 26.3748C33.0009 25.8548 32.9091 25.3098 32.623 24.8533L20.2261 5.00779C20.0635 4.74649 19.8407 4.52451 19.5749 4.35889H19.5731ZM18.5001 24.8888C18.0094 24.8888 17.5388 24.7015 17.1919 24.3681C16.845 24.0347 16.65 23.5825 16.65 23.111C16.65 22.6395 16.845 22.1874 17.1919 21.854C17.5388 21.5206 18.0094 21.3333 18.5001 21.3333C18.9907 21.3333 19.4613 21.5206 19.8082 21.854C20.1551 22.1874 20.3501 22.6395 20.3501 23.111C20.3501 23.5825 20.1551 24.0347 19.8082 24.3681C19.4613 24.7015 18.9907 24.8888 18.5001 24.8888ZM18.5001 8.88871C18.9907 8.88871 19.4613 9.07601 19.8082 9.40941C20.1551 9.74281 20.3501 10.195 20.3501 10.6665V17.7777C20.3501 18.2492 20.1551 18.7014 19.8082 19.0348C19.4613 19.3682 18.9907 19.5555 18.5001 19.5555C18.0094 19.5555 17.5388 19.3682 17.1919 19.0348C16.845 18.7014 16.65 18.2492 16.65 17.7777V10.6665C16.65 10.195 16.845 9.74281 17.1919 9.40941C17.5388 9.07601 18.0094 8.88871 18.5001 8.88871Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="18.5" y1="0" x2="18.5" y2="32"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        </div>
+
+                </li>
+                <img src="img_vz/kaique.jpg" alt="">
+                <li class="c2">
+                   <strong> Gabriel Augusto </strong>
+                    <div class="data">
+                        15h
+                    </div>
+                    <p>Lorem ipsum dolor sit amet, consectetur.</p>
+
+                    <div class="icones">
+                        <a href="#" class="icon" >
+
+                            <svg width="31" height="32" viewBox="0 0 31 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.9886 16.8098C30.6396 15.9495 31 14.8955 31 13.7989C31 12.059 30.0274 10.4122 28.4619 9.49378C28.0589 9.25738 27.6 9.13297 27.1328 9.1334H17.8405L18.073 4.37103C18.1273 3.22015 17.7204 2.1274 16.9299 1.29428C16.5419 0.883638 16.0739 0.556917 15.5547 0.334306C15.0355 0.111696 14.4762 -0.00207318 13.9113 2.85981e-05C11.8962 2.85981e-05 10.1138 1.35628 9.579 3.29765L6.25037 15.3489H1.24C0.554125 15.3489 0 15.903 0 16.5889V30.6939C0 31.3798 0.554125 31.9339 1.24 31.9339H24.5404C24.8969 31.9339 25.2456 31.8642 25.5672 31.7247C27.4117 30.938 28.6014 29.1362 28.6014 27.1367C28.6014 26.6484 28.5316 26.1679 28.3921 25.7029C29.0431 24.8427 29.4035 23.7887 29.4035 22.692C29.4035 22.2038 29.3338 21.7233 29.1943 21.2583C29.8453 20.398 30.2056 19.344 30.2056 18.2474C30.1979 17.7592 30.1281 17.2748 29.9886 16.8098ZM2.79 29.1439V18.1389H5.92875V29.1439H2.79ZM27.4505 15.4652L26.6019 16.2014L27.1405 17.1857C27.318 17.5099 27.41 17.8739 27.4079 18.2435C27.4079 18.8829 27.1289 19.4913 26.6484 19.9098L25.7997 20.646L26.3384 21.6303C26.5158 21.9545 26.6078 22.3186 26.6057 22.6882C26.6057 23.3275 26.3267 23.9359 25.8463 24.3544L24.9976 25.0907L25.5363 26.0749C25.7137 26.3991 25.8057 26.7632 25.8036 27.1328C25.8036 28.0008 25.2921 28.7835 24.5016 29.14H8.40875V18.0149L12.2644 4.04553C12.3638 3.68748 12.5772 3.3716 12.8723 3.14574C13.1674 2.91988 13.528 2.79637 13.8996 2.7939C14.1941 2.7939 14.4847 2.87915 14.7172 3.05353C15.1009 3.34028 15.3062 3.77428 15.283 4.2354L14.911 11.9234H27.094C27.7838 12.3458 28.21 13.0588 28.21 13.7989C28.21 14.4383 27.931 15.0428 27.4505 15.4652Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="15.5" y1="0" x2="15.5" y2="31.9339"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                          <p id="quant">31</p> 
+                        </a>
+                        
+                        <a href="#" class="icon" >
+                            <svg width="37" height="32" viewBox="0 0 37 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.6801 2.86733L36.077 22.7093C37.8585 25.5591 36.9835 29.3084 34.1215 31.0827C33.1609 31.6803 32.0413 31.9989 30.8969 32H6.10132C2.73246 32 0 29.28 0 25.9217C0 24.7857 0.320051 23.6746 0.921302 22.7093L13.32 2.86733C15.0997 0.0175259 18.8627 -0.85537 21.7246 0.918867C22.5164 1.40954 23.1861 2.07621 23.6801 2.86733ZM19.5731 4.35889C19.3466 4.2189 19.0929 4.12449 18.8274 4.08134C18.5619 4.0382 18.29 4.04722 18.0282 4.10787C17.7664 4.16852 17.5202 4.27953 17.3043 4.43421C17.0884 4.58888 16.9074 4.784 16.7721 5.00779L4.37526 24.8533C4.17389 25.1767 4.06774 25.5466 4.06816 25.9235C4.06816 27.0435 4.97836 27.9502 6.10317 27.9502H30.8951C31.2762 27.9502 31.648 27.8435 31.9699 27.6444C32.4319 27.3495 32.7576 26.8947 32.8792 26.3748C33.0009 25.8548 32.9091 25.3098 32.623 24.8533L20.2261 5.00779C20.0635 4.74649 19.8407 4.52451 19.5749 4.35889H19.5731ZM18.5001 24.8888C18.0094 24.8888 17.5388 24.7015 17.1919 24.3681C16.845 24.0347 16.65 23.5825 16.65 23.111C16.65 22.6395 16.845 22.1874 17.1919 21.854C17.5388 21.5206 18.0094 21.3333 18.5001 21.3333C18.9907 21.3333 19.4613 21.5206 19.8082 21.854C20.1551 22.1874 20.3501 22.6395 20.3501 23.111C20.3501 23.5825 20.1551 24.0347 19.8082 24.3681C19.4613 24.7015 18.9907 24.8888 18.5001 24.8888ZM18.5001 8.88871C18.9907 8.88871 19.4613 9.07601 19.8082 9.40941C20.1551 9.74281 20.3501 10.195 20.3501 10.6665V17.7777C20.3501 18.2492 20.1551 18.7014 19.8082 19.0348C19.4613 19.3682 18.9907 19.5555 18.5001 19.5555C18.0094 19.5555 17.5388 19.3682 17.1919 19.0348C16.845 18.7014 16.65 18.2492 16.65 17.7777V10.6665C16.65 10.195 16.845 9.74281 17.1919 9.40941C17.5388 9.07601 18.0094 8.88871 18.5001 8.88871Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="18.5" y1="0" x2="18.5" y2="32"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        </div>
+                </li>
+                <img src="img_vz/matheus.jpg" alt="">
+                <li class="c3">
+                    <strong>Matheus Ferreira</strong>
+                    <div class="data">
+                        21h
+                    </div>
+                    <p>sed do eiusmod tempor incididunt ut labore</p>
+
+                     <div class="icones">
+                        <a href="#" class="icon" >
+
+                            <svg width="31" height="32" viewBox="0 0 31 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M29.9886 16.8098C30.6396 15.9495 31 14.8955 31 13.7989C31 12.059 30.0274 10.4122 28.4619 9.49378C28.0589 9.25738 27.6 9.13297 27.1328 9.1334H17.8405L18.073 4.37103C18.1273 3.22015 17.7204 2.1274 16.9299 1.29428C16.5419 0.883638 16.0739 0.556917 15.5547 0.334306C15.0355 0.111696 14.4762 -0.00207318 13.9113 2.85981e-05C11.8962 2.85981e-05 10.1138 1.35628 9.579 3.29765L6.25037 15.3489H1.24C0.554125 15.3489 0 15.903 0 16.5889V30.6939C0 31.3798 0.554125 31.9339 1.24 31.9339H24.5404C24.8969 31.9339 25.2456 31.8642 25.5672 31.7247C27.4117 30.938 28.6014 29.1362 28.6014 27.1367C28.6014 26.6484 28.5316 26.1679 28.3921 25.7029C29.0431 24.8427 29.4035 23.7887 29.4035 22.692C29.4035 22.2038 29.3338 21.7233 29.1943 21.2583C29.8453 20.398 30.2056 19.344 30.2056 18.2474C30.1979 17.7592 30.1281 17.2748 29.9886 16.8098ZM2.79 29.1439V18.1389H5.92875V29.1439H2.79ZM27.4505 15.4652L26.6019 16.2014L27.1405 17.1857C27.318 17.5099 27.41 17.8739 27.4079 18.2435C27.4079 18.8829 27.1289 19.4913 26.6484 19.9098L25.7997 20.646L26.3384 21.6303C26.5158 21.9545 26.6078 22.3186 26.6057 22.6882C26.6057 23.3275 26.3267 23.9359 25.8463 24.3544L24.9976 25.0907L25.5363 26.0749C25.7137 26.3991 25.8057 26.7632 25.8036 27.1328C25.8036 28.0008 25.2921 28.7835 24.5016 29.14H8.40875V18.0149L12.2644 4.04553C12.3638 3.68748 12.5772 3.3716 12.8723 3.14574C13.1674 2.91988 13.528 2.79637 13.8996 2.7939C14.1941 2.7939 14.4847 2.87915 14.7172 3.05353C15.1009 3.34028 15.3062 3.77428 15.283 4.2354L14.911 11.9234H27.094C27.7838 12.3458 28.21 13.0588 28.21 13.7989C28.21 14.4383 27.931 15.0428 27.4505 15.4652Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="15.5" y1="0" x2="15.5" y2="31.9339"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                          <p id="quant">25</p> 
+                        </a>
+                        
+                        <a href="#" class="icon" >
+                            <svg width="37" height="32" viewBox="0 0 37 32" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M23.6801 2.86733L36.077 22.7093C37.8585 25.5591 36.9835 29.3084 34.1215 31.0827C33.1609 31.6803 32.0413 31.9989 30.8969 32H6.10132C2.73246 32 0 29.28 0 25.9217C0 24.7857 0.320051 23.6746 0.921302 22.7093L13.32 2.86733C15.0997 0.0175259 18.8627 -0.85537 21.7246 0.918867C22.5164 1.40954 23.1861 2.07621 23.6801 2.86733ZM19.5731 4.35889C19.3466 4.2189 19.0929 4.12449 18.8274 4.08134C18.5619 4.0382 18.29 4.04722 18.0282 4.10787C17.7664 4.16852 17.5202 4.27953 17.3043 4.43421C17.0884 4.58888 16.9074 4.784 16.7721 5.00779L4.37526 24.8533C4.17389 25.1767 4.06774 25.5466 4.06816 25.9235C4.06816 27.0435 4.97836 27.9502 6.10317 27.9502H30.8951C31.2762 27.9502 31.648 27.8435 31.9699 27.6444C32.4319 27.3495 32.7576 26.8947 32.8792 26.3748C33.0009 25.8548 32.9091 25.3098 32.623 24.8533L20.2261 5.00779C20.0635 4.74649 19.8407 4.52451 19.5749 4.35889H19.5731ZM18.5001 24.8888C18.0094 24.8888 17.5388 24.7015 17.1919 24.3681C16.845 24.0347 16.65 23.5825 16.65 23.111C16.65 22.6395 16.845 22.1874 17.1919 21.854C17.5388 21.5206 18.0094 21.3333 18.5001 21.3333C18.9907 21.3333 19.4613 21.5206 19.8082 21.854C20.1551 22.1874 20.3501 22.6395 20.3501 23.111C20.3501 23.5825 20.1551 24.0347 19.8082 24.3681C19.4613 24.7015 18.9907 24.8888 18.5001 24.8888ZM18.5001 8.88871C18.9907 8.88871 19.4613 9.07601 19.8082 9.40941C20.1551 9.74281 20.3501 10.195 20.3501 10.6665V17.7777C20.3501 18.2492 20.1551 18.7014 19.8082 19.0348C19.4613 19.3682 18.9907 19.5555 18.5001 19.5555C18.0094 19.5555 17.5388 19.3682 17.1919 19.0348C16.845 18.7014 16.65 18.2492 16.65 17.7777V10.6665C16.65 10.195 16.845 9.74281 17.1919 9.40941C17.5388 9.07601 18.0094 8.88871 18.5001 8.88871Z"
+                                    fill="url(#paint0_linear)" />
+                                <defs>
+                                    <linearGradient id="paint0_linear" x1="18.5" y1="0" x2="18.5" y2="32"
+                                        gradientUnits="userSpaceOnUse">
+                                        <stop stop-color="#FA00FF" />
+                                        <stop offset="1" stop-color="#00E0FF" />
+                                    </linearGradient>
+                                </defs>
+                            </svg>
+                        </a>
+                        </div>
+                </li>
+
+            </ul>
+            <hr>
+
+            <img src="img_vz/eu proa cortado.jpeg" alt="" id="img_comentar">
+            <input type="text" class="enviar_comentario" placeholder="Adicione um comentario..."> </input>
+            <img src="img_vz/icones/enviar.png" alt="Enviar menssagem" id="icone_comentar">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!--FIM MODAL COMENTARIO-->
+
+
+
+
+
+
+
+<!--INICIO MODAL DENUNCIA-->
+  
+
+<!-- The Modal -->
+<div id="myModal2" class="modal2">
+<!-- Modal content -->
+<div class="border_gradient_denuncia">
+<div class="modal-content2">
+    
+        <div class="denuncia_container">
+            
+         <span class="close2">&times;</span>
+         <img src="img_vz/icones/Denunciar.png" alt="" class="icon2">
+         <h1 class="denuncia_title">Denunciar</h1>
+         <hr class="hr_denuncia">
+
+<table>
+         <tr>
+            <td>
+                <label for='denuncias'>Selecione o tipo de Denuncia: </label>
+        </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="denuncias" value="1" checked> Suspeito ou Spam.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="denuncias"  value="2"> Assédio ou discurso de ódio.
+        <tr>
+            <td>
+                <input type="checkbox" name="denuncias"  value="3"> Violência ou danos físicos.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="denuncias"  value="4"> Conteúdo adulto.
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <input type="checkbox" name="denuncias"  value="5"> Violação de propriedade intelectual ou difamação.
+            </td>
+        </tr>
+        
+</table>
+
+        <label class="label_outro">Outro:</label>
+        <textarea name="outra_denuncia" cols="50" rows="2" placeholder="Escreva outro tipo de denuncia..." class="outro" ></textarea>    
+        <label class="label_mais">Conte-nos mais sobre o motivo da Denuncia:</label>    
+        <textarea name="escreva_denuncia" cols="50" rows="4" placeholder="Escreva aqui..." class="escreva"></textarea>
+        <button class="enviar_denuncia">Enviar</button>
+        </div>
+
+      </div>
+</div>
+</div>
+
+      
+  
+<!--INICIO MODAL NOTIFICAÇÕES-->
+
+
+
+<!-- The Modal -->
+<div id="myModal0" class="modal0">
+  <!-- Modal content -->
+  <div class="border_gradient_notificacao">
+  <div class="modal-content0">
+  
+  
+          <div class="notificacao_container0">
+              
+           <span class="close0">&times;</span>
+           <img src="img_vz/icones/sino.png" alt="" class="icon2">
+           <h1 class="notificacao_title">Notificações</h1>
+           <hr class="hr_notificacao">
+           <div class="notificacao_new">
+           <ul>
+               <li class="pink"> <b> Monte Negro </b>lhe enviou uma mensagem. <p>Há 30 minutos </p></li>
+               <li class="azul"> <b>Roberto Soares </b> começou a seguir você. <p>Há 5 horas</p></li>
+              
+               <li class="pink"> <b>João Dirceu </b> compartilhou a sua publicação : ‘’Orgulho em ser surda!!” <p>Há 9 horas</p></li>
+              
+               <li class="azul"> <b>Fabiana Perez </b> curtiu a sua publicação : ‘’Hoje passei... <p>Há 15 horas</p></li>
+             
+               <li class="pink"> <b>Sueli Margarete </b> realizou uma nova postagem.. <p>Há 21 horas</p></li>
+           
+               <li class="azul"> <b>Julia Siva </b> compartilhou a sua publicação : ‘’Orgulho em ser surda!!” <p>Há 1 dia</p></li>
+               
+          </ul>
+          </div>
+        <button class="btn_notificacao"> Mais...</button>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js">
+  </script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+
+  
+  </body>
+  </html>
